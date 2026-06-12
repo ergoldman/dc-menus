@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DC Menus</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1f3a68">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="DC Menus">
+<link rel="apple-touch-icon" href="icon-192.png">
 <style>
   :root {
     --ink: #16213a;
@@ -184,7 +190,7 @@ function dishKey(d) { return `${d.dc}|${d.name}`; }
 
 async function load() {
   try {
-    const res = await fetch("menus.json");
+    const res = await fetch("menus.json?t=" + Date.now());
     if (!res.ok) throw new Error("not found");
     DATA = await res.json();
   } catch (e) {
@@ -357,6 +363,13 @@ function esc(s){ return String(s).replace(/[&<>"']/g, c =>
   ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
 load();
+
+// Register service worker for installability + offline support
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}
 </script>
 </body>
 </html>
