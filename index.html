@@ -34,8 +34,6 @@
     line-height: 1.45;
   }
   .wrap { max-width: 880px; margin: 0 auto; padding: 0 18px 80px; }
-
-  /* Header */
   header {
     padding: 34px 0 22px;
   }
@@ -50,8 +48,6 @@
     color: var(--aggie-blue);
   }
   .sub { color: var(--ink-soft); font-size: 14px; margin-top: 10px; }
-
-  /* Sticky control bar */
   .controls {
     position: sticky; top: 0; z-index: 20;
     background: rgba(251,250,246,.86); backdrop-filter: blur(8px);
@@ -70,7 +66,6 @@
   }
   .seg button[aria-pressed="true"] { background: var(--aggie-blue); color: #fff; }
   .seg.meals button[aria-pressed="true"] { background: var(--aggie-gold); color: var(--ink); }
-
   .filterrow { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; align-items: center; }
   .search {
     flex: 1; min-width: 160px; border: 1px solid var(--line); background: #fff;
@@ -83,12 +78,8 @@
     padding: 7px 13px; border-radius: 999px; transition: all .15s;
   }
   .chip[aria-pressed="true"] { background: var(--green-bg); color: var(--green); border-color: #bcdcc8; }
-
-  /* Meta line */
   .meta { font-size: 12.5px; color: var(--ink-soft); margin: 4px 2px 16px; }
   .meta b { color: var(--ink); font-weight: 700; }
-
-  /* Zone groups */
   .zone { margin-bottom: 26px; }
   .zone-head {
     display: flex; align-items: baseline; gap: 10px; margin: 0 2px 10px;
@@ -96,8 +87,6 @@
   .zone-dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
   .zone-name { font-size: 13px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
   .zone-count { font-size: 12px; color: var(--ink-soft); }
-
-  /* Dish cards */
   .grid { display: grid; gap: 10px; }
   .dish {
     background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -125,13 +114,9 @@
   .dish-more { display: none; margin-top: 11px; padding-top: 11px; border-top: 1px dashed var(--line); font-size: 13px; color: var(--ink-soft); }
   .dish.open .dish-more { display: block; }
   .dish-more b { color: var(--ink); }
-
-  /* Empty + loading */
   .state { text-align: center; padding: 70px 20px; color: var(--ink-soft); }
   .state h3 { color: var(--ink); font-size: 18px; margin-bottom: 6px; }
   .state code { background: #f0eee6; padding: 2px 7px; border-radius: 6px; font-size: 13px; }
-
-  /* Favorites bar */
   .favbar {
     position: fixed; left: 50%; transform: translateX(-50%); bottom: 18px; z-index: 30;
     background: var(--aggie-blue); color: #fff; border-radius: 999px;
@@ -149,7 +134,6 @@
     <h1>Today at the DCs</h1>
     <div class="sub" id="sub">Loading menus…</div>
   </header>
-
   <div class="controls" id="controls" style="display:none">
     <div class="segrow">
       <div class="seg dcs" id="dcSeg"></div>
@@ -164,33 +148,27 @@
       <button class="chip" id="notifyBtn" style="border-color:#bcd0ec;color:#1f3a68">🔔 Notify me</button>
     </div>
   </div>
-
   <div class="meta" id="meta"></div>
   <div id="content"></div>
 </div>
-
 <button class="favbar" id="favbar">
   <span>★ Your favorites</span><span class="n" id="favN">0</span>
 </button>
-
 <script>
 const ZONE_COLORS = {
   "Red Zone": "#c0392b", "Yellow Zone": "#d9a818", "Blue Zone": "#1f3a68",
   "Green Zone": "#2e7d52", "Pink Zone": "#c2517a", "Purple Zone": "#6b4e9e",
 };
 const MEAL_ORDER = ["Breakfast", "Lunch", "Dinner"];
-
 let DATA = [];
 let favorites = new Set(JSON.parse(localStorage.getItem("dcFavorites") || "[]"));
 let state = { dc: null, meal: null, diets: new Set(), favOnly: false, q: "" };
-
 function saveFavs() {
   localStorage.setItem("dcFavorites", JSON.stringify([...favorites]));
   renderFavBar();
   if (typeof syncFavoritesToServer === "function") syncFavoritesToServer();
 }
 function dishKey(d) { return `${d.dc}|${d.name}`; }
-
 async function load() {
   try {
     const res = await fetch("menus.json?t=" + Date.now());
@@ -211,9 +189,7 @@ async function load() {
     return;
   }
   state.dc = dcs[0].dc;
-  // pick first meal that has dishes
   state.meal = MEAL_ORDER.find(m => dcs[0].dishes.some(x => x.meal === m)) || dcs[0].dishes[0].meal;
-
   buildSegs(dcs);
   document.getElementById("controls").style.display = "block";
   const when = new Date(dcs[0].scrapedAt || Date.now());
@@ -223,7 +199,6 @@ async function load() {
   renderFavBar();
   render();
 }
-
 function buildSegs(dcs) {
   const dcSeg = document.getElementById("dcSeg");
   dcSeg.innerHTML = dcs.map(d =>
@@ -232,7 +207,6 @@ function buildSegs(dcs) {
   mealSeg.innerHTML = MEAL_ORDER.map(m =>
     `<button data-meal="${m}" aria-pressed="${m===state.meal}">${m}</button>`).join("");
 }
-
 function wireControls() {
   document.getElementById("dcSeg").addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
@@ -268,7 +242,6 @@ function syncPressed(segId, attr, val) {
   document.querySelectorAll(`#${segId} button`).forEach(b =>
     b.setAttribute("aria-pressed", b.dataset[attr] === val));
 }
-
 function currentDishes() {
   const dc = DATA.find(d => d.dc === state.dc);
   if (!dc) return [];
@@ -281,16 +254,13 @@ function currentDishes() {
     return true;
   });
 }
-
 function render() {
   const dishes = currentDishes();
   const meta = document.getElementById("meta");
   const content = document.getElementById("content");
-
   meta.innerHTML = `<b>${dishes.length}</b> ${dishes.length===1?"dish":"dishes"} · ${state.dc} · ${state.meal}` +
     (state.diets.size ? ` · ${[...state.diets].join(", ")}` : "") +
     (state.favOnly ? " · favorites only" : "");
-
   if (!dishes.length) {
     content.innerHTML = emptyState(
       state.favOnly ? "No favorites here yet" : "Nothing matches",
@@ -299,13 +269,10 @@ function render() {
     );
     return;
   }
-
-  // group by zone, in color order
   const byZone = {};
   for (const d of dishes) (byZone[d.zone||"Menu"] ??= []).push(d);
   const zones = Object.keys(byZone).sort((a,b) =>
     Object.keys(ZONE_COLORS).indexOf(a) - Object.keys(ZONE_COLORS).indexOf(b));
-
   content.innerHTML = zones.map(z => `
     <section class="zone">
       <div class="zone-head">
@@ -315,7 +282,6 @@ function render() {
       </div>
       <div class="grid">${byZone[z].map(dishCard).join("")}</div>
     </section>`).join("");
-
   content.querySelectorAll(".dish").forEach(card => {
     card.addEventListener("click", e => {
       if (e.target.closest(".star")) return;
@@ -332,7 +298,6 @@ function render() {
     });
   });
 }
-
 function dishCard(d) {
   const k = dishKey(d);
   const on = favorites.has(k);
@@ -353,7 +318,6 @@ function dishCard(d) {
       <div class="dish-more">${more}</div>
     </article>`;
 }
-
 function emptyState(h, p) {
   return `<div class="state"><h3>${h}</h3><div>${p}</div></div>`;
 }
@@ -364,22 +328,17 @@ function renderFavBar() {
 }
 function esc(s){ return String(s).replace(/[&<>"']/g, c =>
   ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
-
-// ---- Push notifications ----
 const SUPABASE_URL = "https://hpybopesfbvoqrnrujgf.supabase.co";
 const SUPABASE_KEY = "sb_publishable_ArsuTmaiaRP9iV-ZsZNhDw_XSoGJ4zp";
 const VAPID_PUBLIC = "BHxaJo5FIVWYHlBcdC7PLDCAZVhNHzrcSL-M7NnBpFmV2aolU-qKve1Zfdm2JhFVLbP6BUelzxA1q6GOnGK7oaM";
-
-let supabase = null;
-try { supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY); } catch (e) {}
-
+let db = null;
+try { db = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY); } catch (e) {}
 function urlBase64ToUint8Array(base64String) {
   const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
   const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
   const raw = atob(base64);
   return Uint8Array.from([...raw].map((c) => c.charCodeAt(0)));
 }
-
 async function enableNotifications() {
   const btn = document.getElementById("notifyBtn");
   if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
@@ -400,21 +359,17 @@ async function enableNotifications() {
       applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC),
     });
     const json = sub.toJSON();
-
-    // Save subscription
-    const { data: subRow, error: subErr } = await supabase
+    const { data: subRow, error: subErr } = await db
       .from("subscriptions")
       .upsert({ endpoint: json.endpoint, p256dh: json.keys.p256dh, auth: json.keys.auth },
               { onConflict: "endpoint" })
       .select()
       .single();
     if (subErr) throw subErr;
-
-    // Save current favorites (by dish name) linked to this subscription
     const names = [...new Set([...favorites].map((k) => k.split("|")[1]))];
     if (names.length) {
-      await supabase.from("favorites").delete().eq("subscription_id", subRow.id);
-      await supabase.from("favorites").insert(
+      await db.from("favorites").delete().eq("subscription_id", subRow.id);
+      await db.from("favorites").insert(
         names.map((n) => ({ subscription_id: subRow.id, dish_name: n }))
       );
     }
@@ -427,27 +382,21 @@ async function enableNotifications() {
     alert("Couldn't enable notifications: " + (e.message || e));
   }
 }
-
-// Keep server favorites in sync when user stars/unstars (only if they've subscribed)
 async function syncFavoritesToServer() {
   const subId = localStorage.getItem("dcSubId");
-  if (!subId || !supabase) return;
+  if (!subId || !db) return;
   const names = [...new Set([...favorites].map((k) => k.split("|")[1]))];
   try {
-    await supabase.from("favorites").delete().eq("subscription_id", subId);
+    await db.from("favorites").delete().eq("subscription_id", subId);
     if (names.length) {
-      await supabase.from("favorites").insert(
+      await db.from("favorites").insert(
         names.map((n) => ({ subscription_id: subId, dish_name: n }))
       );
     }
   } catch (e) {}
 }
-
 document.getElementById("notifyBtn").addEventListener("click", enableNotifications);
-
 load();
-
-// Register service worker for installability + offline support
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("sw.js").catch(() => {});
