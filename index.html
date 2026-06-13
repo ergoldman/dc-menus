@@ -10,6 +10,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="DC Menus">
 <link rel="apple-touch-icon" href="icon-192.png">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
   :root {
     --ink: #16213a;
@@ -160,6 +161,7 @@
       <button class="chip" data-diet="Vegetarian" aria-pressed="false">Vegetarian</button>
       <button class="chip" data-diet="Halal" aria-pressed="false">Halal</button>
       <button class="chip" id="favOnly" aria-pressed="false">★ Favorites</button>
+      <button class="chip" id="notifyBtn" style="border-color:#bcd0ec;color:#1f3a68">🔔 Notify me</button>
     </div>
   </div>
 
@@ -185,6 +187,7 @@ let state = { dc: null, meal: null, diets: new Set(), favOnly: false, q: "" };
 function saveFavs() {
   localStorage.setItem("dcFavorites", JSON.stringify([...favorites]));
   renderFavBar();
+  if (typeof syncFavoritesToServer === "function") syncFavoritesToServer();
 }
 function dishKey(d) { return `${d.dc}|${d.name}`; }
 
@@ -361,6 +364,86 @@ function renderFavBar() {
 }
 function esc(s){ return String(s).replace(/[&<>"']/g, c =>
   ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+// ---- Push notifications ----
+const SUPABASE_URL = "https://hpybopesfbvoqrnrujgf.supabase.co";
+const SUPABASE_KEY = "sb_publishable_ArsuTmaiaRP9iV-ZsZNhDw_XSoGJ4zp";
+const VAPID_PUBLIC = "BHxaJo5FIVWYHlBcdC7PLDCAZVhNHzrcSL-M7NnBpFmV2aolU-qKve1Zfdm2JhFVLbP6BUelzxA1q6GOnGK7oaM";
+
+let supabase = null;
+try { supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY); } catch (e) {}
+
+function urlBase64ToUint8Array(base64String) {
+  const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
+  const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
+  const raw = atob(base64);
+  return Uint8Array.from([...raw].map((c) => c.charCodeAt(0)));
+}
+
+async function enableNotifications() {
+  const btn = document.getElementById("notifyBtn");
+  if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
+    alert("Your browser doesn't support notifications. On iPhone, add this app to your Home Screen first (Share → Add to Home Screen), then open it from there.");
+    return;
+  }
+  try {
+    btn.textContent = "…";
+    const permission = await Notification.requestPermission();
+    if (permission !== "granted") {
+      btn.textContent = "🔔 Notify me";
+      alert("Notifications are blocked. You can re-enable them in your browser settings.");
+      return;
+    }
+    const reg = await navigator.serviceWorker.ready;
+    const sub = await reg.pushManager.subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC),
+    });
+    const json = sub.toJSON();
+
+    // Save subscription
+    const { data: subRow, error: subErr } = await supabase
+      .from("subscriptions")
+      .upsert({ endpoint: json.endpoint, p256dh: json.keys.p256dh, auth: json.keys.auth },
+              { onConflict: "endpoint" })
+      .select()
+      .single();
+    if (subErr) throw subErr;
+
+    // Save current favorites (by dish name) linked to this subscription
+    const names = [...new Set([...favorites].map((k) => k.split("|")[1]))];
+    if (names.length) {
+      await supabase.from("favorites").delete().eq("subscription_id", subRow.id);
+      await supabase.from("favorites").insert(
+        names.map((n) => ({ subscription_id: subRow.id, dish_name: n }))
+      );
+    }
+    localStorage.setItem("dcSubId", subRow.id);
+    btn.textContent = "🔔 On";
+    btn.setAttribute("aria-pressed", "true");
+    alert("Done! You'll get a notification when one of your favorites is on the menu. Add ★ favorites and they'll be included automatically.");
+  } catch (e) {
+    btn.textContent = "🔔 Notify me";
+    alert("Couldn't enable notifications: " + (e.message || e));
+  }
+}
+
+// Keep server favorites in sync when user stars/unstars (only if they've subscribed)
+async function syncFavoritesToServer() {
+  const subId = localStorage.getItem("dcSubId");
+  if (!subId || !supabase) return;
+  const names = [...new Set([...favorites].map((k) => k.split("|")[1]))];
+  try {
+    await supabase.from("favorites").delete().eq("subscription_id", subId);
+    if (names.length) {
+      await supabase.from("favorites").insert(
+        names.map((n) => ({ subscription_id: subId, dish_name: n }))
+      );
+    }
+  } catch (e) {}
+}
+
+document.getElementById("notifyBtn").addEventListener("click", enableNotifications);
 
 load();
 
