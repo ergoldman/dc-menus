@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name "menu-bot"
           git config user.email "actions@github.com"
-          git add menus.json archive/
+          git add menus.json archive/ history.json
           if git diff --staged --quiet; then
             echo "No menu changes today."
           else
