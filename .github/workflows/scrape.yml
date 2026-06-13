@@ -2,11 +2,13 @@ name: Scrape DC menus
 
 on:
   schedule:
+    # Runs daily at 14:00 UTC = 7:00 AM Pacific (adjust the hour if you like).
+    # Cron is in UTC. 14 = 7am PDT / 6am PST.
     - cron: "0 14 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # lets you trigger it by hand from the Actions tab
 
 permissions:
-  contents: write
+  contents: write          # allows the action to commit menus.json back
 
 jobs:
   scrape:
@@ -32,7 +34,7 @@ jobs:
         run: |
           git config user.name "menu-bot"
           git config user.email "actions@github.com"
-          git add menus.json
+          git add menus.json archive/
           if git diff --staged --quiet; then
             echo "No menu changes today."
           else
