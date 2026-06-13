@@ -30,6 +30,15 @@ jobs:
       - name: Run scraper
         run: python scrape.py
 
+      - name: Send notifications
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+        run: python send_notifications.py
+
       - name: Commit updated menus
         run: |
           git config user.name "menu-bot"
