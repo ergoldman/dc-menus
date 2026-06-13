@@ -168,12 +168,72 @@ def scrape():
     with open(archive_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
+    build_history(results, stamp)
+
     total = sum(len(r["dishes"]) for r in results)
     print(f"\nwrote menus.json — {total} dishes across {len(results)} dining commons")
     print(f"archived {archive_path}")
     if total == 0:
         print("0 dishes: the site may be empty right now (migration). Try again later,")
         print("or run with --headed to watch what loads.")
+
+
+def build_history(results, today_stamp):
+    """Maintain history.json: per-dish appearance dates, plus what's new today.
+
+    Structure:
+    {
+      "updated": "2026-06-13",
+      "dishes": { "Waffle Bar": ["2026-06-12", "2026-06-13"], ... },  # last 60 days
+      "new_today": ["Dish A", "Dish B"],   # on menu today, not yesterday
+      "days_tracked": 12
+    }
+    """
+    today_names = sorted({d["name"] for dc in results for d in dc.get("dishes", [])})
+
+    # Load existing history (or start fresh)
+    hist = {"dishes": {}, "updated": None, "new_today": [], "days_tracked": 0}
+    if os.path.exists("history.json"):
+        try:
+            with open("history.json", encoding="utf-8") as f:
+                hist = json.load(f)
+        except Exception:
+            pass
+
+    dishes = hist.get("dishes", {})
+
+    # Figure out "new today" = on today's menu but NOT on the most recent prior day
+    all_dates = sorted({dt for dates in dishes.values() for dt in dates})
+    prev_date = all_dates[-1] if all_dates else None
+    prev_names = set()
+    if prev_date and prev_date != today_stamp:
+        prev_names = {name for name, dates in dishes.items() if prev_date in dates}
+
+    # Record today's appearances
+    for name in today_names:
+        lst = set(dishes.get(name, []))
+        lst.add(today_stamp)
+        dishes[name] = sorted(lst)
+
+    # Trim each dish's date list to the last 60 distinct days to keep the file small
+    cutoff_dates = sorted({dt for dates in dishes.values() for dt in dates})[-60:]
+    cutoff_set = set(cutoff_dates)
+    for name in list(dishes.keys()):
+        dishes[name] = [d for d in dishes[name] if d in cutoff_set]
+        if not dishes[name]:
+            del dishes[name]
+
+    new_today = sorted(set(today_names) - prev_names) if prev_names else []
+
+    out = {
+        "updated": today_stamp,
+        "dishes": dishes,
+        "new_today": new_today,
+        "days_tracked": len(cutoff_dates),
+    }
+    with open("history.json", "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    print(f"updated history.json — tracking {len(dishes)} dishes over {len(cutoff_dates)} days, {len(new_today)} new today")
 
 
 if __name__ == "__main__":

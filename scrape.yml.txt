@@ -1,0 +1,52 @@
+name: Scrape DC menus
+
+on:
+  schedule:
+    # Runs daily at 14:00 UTC = 7:00 AM Pacific (adjust the hour if you like).
+    # Cron is in UTC. 14 = 7am PDT / 6am PST.
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}   # lets you trigger it by hand from the Actions tab
+
+permissions:
+  contents: write          # allows the action to commit menus.json back
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: python scrape.py
+
+      - name: Send notifications
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+        run: python send_notifications.py
+
+      - name: Commit updated menus
+        run: |
+          git config user.name "menu-bot"
+          git config user.email "actions@github.com"
+          git add menus.json archive/ history.json
+          if git diff --staged --quiet; then
+            echo "No menu changes today."
+          else
+            git commit -m "Update menus $(date -u +%Y-%m-%d)"
+            git push
+          fi
