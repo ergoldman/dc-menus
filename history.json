@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20",
+  "updated": "2026-06-21",
   "dishes": {
     "\"Chicken\" Pancit": [
       "2026-06-13"
@@ -29,7 +29,8 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Assorted Vegetables": [
       "2026-06-13"
@@ -51,19 +52,23 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "BYO Veggie Mongolian BBQ": [
       "2026-06-13"
     ],
     "Bacon": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Banana Nut Bread": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Banana Nut Muffin": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Beef Stroganoff with Egg Noodles": [
       "2026-06-13"
@@ -82,14 +87,16 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Boiled Eggs": [
       "2026-06-13",
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Braised Chicken Tacos": [
       "2026-06-13"
@@ -104,10 +111,12 @@
       "2026-06-13"
     ],
     "Buffalo Chicken Wrap": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Build Your Own Breakfast Burrito": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Build Your Own Nachos!": [
       "2026-06-13"
@@ -117,7 +126,8 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Build Your Own Omelette||Fried Eggs to Order": [
       "2026-06-13"
@@ -130,14 +140,16 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Butter Croissant": [
       "2026-06-13",
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Butter Rice": [
       "2026-06-13"
@@ -153,16 +165,19 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Carne Asada and Poblano Quesadilla": [
       "2026-06-13"
     ],
     "Carrot Cake": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Carrot Spiced Soup": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Cauliflower Potato Curry": [
       "2026-06-13"
@@ -177,10 +192,12 @@
       "2026-06-13"
     ],
     "Cheese Pizza": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Cheese and Tomato Pizza": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Chefs choice": [
       "2026-06-13"
@@ -189,7 +206,8 @@
       "2026-06-13"
     ],
     "Chicken Apple Breakfast Sausage": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Chicken Bacon Ranch Sandwich": [
       "2026-06-13"
@@ -204,7 +222,8 @@
       "2026-06-13"
     ],
     "Chicken Tikka Masala Soup": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Chicken Tikka Masala with Jasmine Rice": [
       "2026-06-13"
@@ -216,7 +235,8 @@
       "2026-06-13"
     ],
     "Chipotle Black Bean Burger": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Chipotle Pinto Beans": [
       "2026-06-13"
@@ -228,7 +248,8 @@
       "2026-06-13"
     ],
     "Chocolate Chip Brownies": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Chocolate Chip Cookie": [
       "2026-06-13",
@@ -237,16 +258,19 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Chocolate Ganache Swirl Cheesecake": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Chocolate Muffin": [
       "2026-06-13"
     ],
     "Choley Beans": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Chorizo Butternut Squash Taco": [
       "2026-06-13"
@@ -255,13 +279,16 @@
       "2026-06-13"
     ],
     "Cinnamon Rolls with Cream Cheese Frosting": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Cinnamon Sugar Cake Donut": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Coconut Cake Donut": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Combo Pizza": [
       "2026-06-13"
@@ -271,7 +298,8 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Costillas De Puerco": [
       "2026-06-13"
@@ -280,7 +308,8 @@
       "2026-06-13"
     ],
     "Cowboy Macaroni Salad": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Curly Fries": [
       "2026-06-13",
@@ -293,7 +322,8 @@
       "2026-06-13"
     ],
     "Dark Chocolate Cranberry Cookie": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Deconstructed Chicken Enchilada": [
       "2026-06-13"
@@ -305,16 +335,20 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Dessert Lemon Bar": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Diced Hash Browns": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Double Chocolate Cake": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Double Chocolate Chip Mint Condition Cookie": [
       "2026-06-13",
@@ -323,17 +357,20 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Everything Bagel": [
       "2026-06-13",
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Falafel Burger": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Falafel Sub": [
       "2026-06-13"
@@ -352,23 +389,27 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Fried Tater Tots": [
       "2026-06-13",
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Frosted Brownie": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Fruit & Yogurt Bar": [
       "2026-06-13"
     ],
     "Garlic Breadsticks": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Garlic Noodles": [
       "2026-06-13"
@@ -380,16 +421,19 @@
       "2026-06-13"
     ],
     "Glazed Cake Donut": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Graduating Chicken Pizza": [
       "2026-06-13"
     ],
     "Grandma Mary's Chicken Soup": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Grass-Fed Cheeseburger": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Grass-Fed Cowboy Burger": [
       "2026-06-13"
@@ -401,7 +445,8 @@
       "2026-06-13"
     ],
     "Grilled Garlic Naan": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Grilled Pork Chop Agrodolce and Assorted Vegetables": [
       "2026-06-13"
@@ -422,7 +467,8 @@
       "2026-06-13"
     ],
     "Jalapeño Kettle Chips": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Java Rice": [
       "2026-06-13"
@@ -432,22 +478,26 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Just Egg - Plant Based Omelette": [
       "2026-06-13"
     ],
     "Lemon Drop Cookie": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Lemon Herb Chicken": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Lemon Herb Chicken Thigh": [
       "2026-06-13"
     ],
     "Lemon Linguine Pasta Salad": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Lemon Muffin": [
       "2026-06-13"
@@ -465,19 +515,23 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Macadamias with White Chocolate Chips Cookie": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Malibu Burger": [
       "2026-06-13"
     ],
     "Masala Cauliflower Soup": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Mediterranean Bar": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Mediterranean Lamb Tacos": [
       "2026-06-13"
@@ -492,7 +546,8 @@
       "2026-06-20"
     ],
     "Mexican Chicken Tortilla Soup": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Minestrone": [
       "2026-06-13"
@@ -516,7 +571,8 @@
       "2026-06-13"
     ],
     "New York Cheesecake Bar": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Oat Bran Muffin": [
       "2026-06-13"
@@ -526,7 +582,8 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Oatmeal Raisin Cookie": [
       "2026-06-13",
@@ -535,7 +592,8 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Old Fashioned Chocolate Donut": [
       "2026-06-13"
@@ -544,13 +602,15 @@
       "2026-06-13"
     ],
     "Onion Bagel": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Orange Cranberry Muffin": [
       "2026-06-13"
     ],
     "Overnight Oats": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "PLANT FORWARD TOSTADA BAR": [
       "2026-06-13"
@@ -580,7 +640,8 @@
       "2026-06-13"
     ],
     "Pepperoni Pizza": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Pepperoni and Cheese Pizza": [
       "2026-06-13"
@@ -592,7 +653,8 @@
       "2026-06-13"
     ],
     "Picnic Potato Salad": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Pico De Gallo": [
       "2026-06-13"
@@ -602,10 +664,12 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Plain Old Fashioned Donut": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Plain Scone": [
       "2026-06-13"
@@ -614,7 +678,8 @@
       "2026-06-13"
     ],
     "Plant Forward Breakfast Burrito Bar": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Plant Forward Nacho Bar": [
       "2026-06-13"
@@ -626,13 +691,16 @@
       "2026-06-13"
     ],
     "Poppy Seed Bagel": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Poppy Seed Bread": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Pork Breakfast Sausage Links": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Pork Carnitas": [
       "2026-06-13"
@@ -642,19 +710,22 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Pork Tamale with Mexican Rice": [
       "2026-06-13"
     ],
     "Powdered Sugar Cake Donut": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Puerco en Chile Verde": [
       "2026-06-13"
     ],
     "Raised Chocolate Donut": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Raised Crumb Donut": [
       "2026-06-13"
@@ -663,10 +734,12 @@
       "2026-06-13"
     ],
     "Raised Maple Donut": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Raspberry Brownie Cheesecake Bar": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Raspberry Peach Scone": [
       "2026-06-13"
@@ -678,7 +751,8 @@
       "2026-06-13"
     ],
     "Roasted Brussels Sprouts": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Roasted House Salsa": [
       "2026-06-13"
@@ -708,7 +782,8 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Salad Selections": [
       "2026-06-13"
@@ -720,14 +795,16 @@
       "2026-06-13"
     ],
     "Sautéed Garlic Green Beans": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Scrambled Egg": [
       "2026-06-13",
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Scrambled Egg  ||  Sticky Rice": [
       "2026-06-13"
@@ -740,7 +817,8 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Scrambled Egg || Sticky Rice": [
       "2026-06-13"
@@ -750,7 +828,8 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Seared Cod with Pearled Couscous and Romesco": [
       "2026-06-13"
@@ -761,19 +840,23 @@
       "2026-06-20"
     ],
     "Seasoned Wedge Fries": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Sesame Bagel": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Shoestring Potatoes": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Shrimp Burrito": [
       "2026-06-13"
     ],
     "Smoked Cheddar & Bacon Potato Salad": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Snickerdoodle Cookie": [
       "2026-06-13",
@@ -782,10 +865,12 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Sourdough Bagel": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Southwest Black Beans": [
       "2026-06-13"
@@ -803,7 +888,8 @@
       "2026-06-13"
     ],
     "Sriracha Honey Chicken": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Sriracha Honey Chicken | Pork Carnitas": [
       "2026-06-13"
@@ -816,10 +902,12 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Strawberry Shortcake": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Sweet & Sour Mushrooms with Stikcy Rice": [
       "2026-06-13"
@@ -834,7 +922,8 @@
       "2026-06-13"
     ],
     "Tiramisu": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Tomatillo Avocado Salsa": [
       "2026-06-13"
@@ -849,7 +938,8 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Traditional Hummus": [
       "2026-06-13",
@@ -858,10 +948,12 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Tres Leches Cake": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Tuna Salad": [
       "2026-06-13",
@@ -870,10 +962,12 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Turkey Chili with Beans": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Tuscan Mushroom Bean Soup": [
       "2026-06-13",
@@ -891,13 +985,15 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Umami Tofu": [
       "2026-06-13"
     ],
     "Vanilla Chia Pudding": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Veggie Mongolian BBQ": [
       "2026-06-13"
@@ -910,7 +1006,8 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Whipped Cream": [
       "2026-06-13"
@@ -919,19 +1016,23 @@
       "2026-06-13"
     ],
     "White Conchas - Sweet Bread": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "White Rice": [
       "2026-06-13"
     ],
     "Whole Wheat Bagel": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Winter White Cake Donut": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Yellow Conchas - Sweet Bread": [
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-21"
     ],
     "Yogurt Bar!": [
       "2026-06-13"
@@ -984,19 +1085,22 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "M&M Brownie": [
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Plant Forward Latin Bar": [
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-21"
     ],
     "Shrimp Taco": [
       "2026-06-14",
@@ -1016,11 +1120,13 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Ancho Crusted Flank Steak": [
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Baharat Chicken||Four Cheese Cavatappi": [
       "2026-06-19",
@@ -1028,13 +1134,436 @@
     ],
     "Kung Pao Mushrooms": [
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "New York Cheesecake": [
       "2026-06-19",
       "2026-06-20"
+    ],
+    "Al Pastor Braised Carrots": [
+      "2026-06-21"
+    ],
+    "Aloo Gobi": [
+      "2026-06-21"
+    ],
+    "Arroz Blanco": [
+      "2026-06-21"
+    ],
+    "Asiago Bagel": [
+      "2026-06-21"
+    ],
+    "BBQ Chicken Drumstick": [
+      "2026-06-21"
+    ],
+    "BBQ St. Louis Pork Rib": [
+      "2026-06-21"
+    ],
+    "Baja Style Fish Tacos": [
+      "2026-06-21"
+    ],
+    "Beer Battered Cod": [
+      "2026-06-21"
+    ],
+    "Beyond  Burger": [
+      "2026-06-21"
+    ],
+    "Blueberry Bread": [
+      "2026-06-21"
+    ],
+    "Calamari Salad": [
+      "2026-06-21"
+    ],
+    "Carne Asada Taco": [
+      "2026-06-21"
+    ],
+    "Challah French Toast": [
+      "2026-06-21"
+    ],
+    "Cheese Phesto Pizza": [
+      "2026-06-21"
+    ],
+    "Chicken Breakfast Sausage": [
+      "2026-06-21"
+    ],
+    "Chicken Parmesan with Pasta": [
+      "2026-06-21"
+    ],
+    "Chicken and Poblano Quesadilla": [
+      "2026-06-21"
+    ],
+    "Chimichurri Sauce": [
+      "2026-06-21"
+    ],
+    "Chipotle Chicken Ciabatta": [
+      "2026-06-21"
+    ],
+    "Chips & Salsa": [
+      "2026-06-21"
+    ],
+    "Chorizo Sausage Patties": [
+      "2026-06-21"
+    ],
+    "Cranberry Orange Muffin": [
+      "2026-06-21"
+    ],
+    "Cream Cheese Danish": [
+      "2026-06-21"
+    ],
+    "Cubano Sandwich": [
+      "2026-06-21"
+    ],
+    "Double Chocolate Muffin": [
+      "2026-06-21"
+    ],
+    "Dutch Apple Coffee Cake": [
+      "2026-06-21"
+    ],
+    "Fettuccine Al Burro": [
+      "2026-06-21"
+    ],
+    "Five Bean Chili": [
+      "2026-06-21"
+    ],
+    "Franky's Pork Belly Taco": [
+      "2026-06-21"
+    ],
+    "French Toast Bar": [
+      "2026-06-21"
+    ],
+    "Fried Chicken Sandwich": [
+      "2026-06-21"
+    ],
+    "Fried Eggplant Sandwich with Pepperoncini Slaw": [
+      "2026-06-21"
+    ],
+    "Goat Cheese and Prosciutto Pizza": [
+      "2026-06-21"
+    ],
+    "Grass-Fed Bacon Cheeseburger": [
+      "2026-06-21"
+    ],
+    "Grilled Asparagus": [
+      "2026-06-21"
+    ],
+    "Grilled Corn and Squash Salsa": [
+      "2026-06-21"
+    ],
+    "Guatemalan Mixta": [
+      "2026-06-21"
+    ],
+    "Hawaiian Pizza": [
+      "2026-06-21"
+    ],
+    "Impossible Buffalo Burger": [
+      "2026-06-21"
+    ],
+    "Italian Feta Pasta Salad": [
+      "2026-06-21"
+    ],
+    "Italian Hero": [
+      "2026-06-21"
+    ],
+    "Italian Sausage and Broccoli Rabe Pizza": [
+      "2026-06-21"
+    ],
+    "Jalapeño Popper Pasta Salad": [
+      "2026-06-21"
+    ],
+    "Lemon Chicken with Garlicky Kale and Fingerlings": [
+      "2026-06-21"
+    ],
+    "Lomo Saltado": [
+      "2026-06-21"
+    ],
+    "Long Grain Rice": [
+      "2026-06-21"
+    ],
+    "Mediterranean Burger": [
+      "2026-06-21"
+    ],
+    "Miller's Locally-Made Hot Dog": [
+      "2026-06-21"
+    ],
+    "Mini Bear Claw": [
+      "2026-06-21"
+    ],
+    "Mushroom and Onion Pizza": [
+      "2026-06-21"
+    ],
+    "NY-Style Chopped Cheese Sandwich": [
+      "2026-06-21"
+    ],
+    "Native 3 Sisters Bean Soup": [
+      "2026-06-21"
+    ],
+    "New England Clam Chowder": [
+      "2026-06-21"
+    ],
+    "Onion Rings": [
+      "2026-06-21"
+    ],
+    "Orange Cake": [
+      "2026-06-21"
+    ],
+    "Organic Smoky Split Pea Soup": [
+      "2026-06-21"
+    ],
+    "Pancake Bar||Wedge Fries||White Rice": [
+      "2026-06-21"
+    ],
+    "Pasta Arrabiata": [
+      "2026-06-21"
+    ],
+    "Plain Brownie": [
+      "2026-06-21"
+    ],
+    "Plant Based Mexican Hot Dog": [
+      "2026-06-21"
+    ],
+    "Plant Forward Mediterranean Bar": [
+      "2026-06-21"
+    ],
+    "Plátanos Fritos": [
+      "2026-06-21"
+    ],
+    "Portobello Cheesesteak Sandwich": [
+      "2026-06-21"
+    ],
+    "Raised Sugar Donut": [
+      "2026-06-21"
+    ],
+    "Ravioli with Roasted Aggie-Grown Tomato Sauce": [
+      "2026-06-21"
+    ],
+    "Roasted Fingerling Potatoes": [
+      "2026-06-21"
+    ],
+    "Roasted Fresh Corn": [
+      "2026-06-21"
+    ],
+    "Roasted Mushrooms and Garlic": [
+      "2026-06-21"
+    ],
+    "Sausage Egg and Cheese Muffin": [
+      "2026-06-21"
+    ],
+    "Sautéed Spicy Shrimp": [
+      "2026-06-21"
+    ],
+    "Sautéed Swiss Chard": [
+      "2026-06-21"
+    ],
+    "Scrambled Egg||Bacon": [
+      "2026-06-21"
+    ],
+    "Sea Salt Kettle Chips": [
+      "2026-06-21"
+    ],
+    "Seared Salmon with Tomato and Fresh Corn": [
+      "2026-06-21"
+    ],
+    "Seared White Fish with Tomato Caper Sauce": [
+      "2026-06-21"
+    ],
+    "Spaghetti and Meatballs": [
+      "2026-06-21"
+    ],
+    "Sticky Toffee Pudding Cake": [
+      "2026-06-21"
+    ],
+    "Strawberry Icing Cake Donut": [
+      "2026-06-21"
+    ],
+    "Sweet and Sour Tofu with Rice": [
+      "2026-06-21"
+    ],
+    "Szechuan Tofu": [
+      "2026-06-21"
+    ],
+    "Tri Tip": [
+      "2026-06-21"
+    ],
+    "Triple Chocolate Cookie": [
+      "2026-06-21"
     ]
   },
-  "new_today": [],
-  "days_tracked": 7
+  "new_today": [
+    "Al Pastor Braised Carrots",
+    "Aloo Gobi",
+    "Arroz Blanco",
+    "Asiago Bagel",
+    "Assorted Loaf Cakes",
+    "BBQ Chicken Drumstick",
+    "BBQ St. Louis Pork Rib",
+    "BYO Parfait",
+    "Bacon",
+    "Baja Style Fish Tacos",
+    "Banana Nut Bread",
+    "Banana Nut Muffin",
+    "Beer Battered Cod",
+    "Beyond  Burger",
+    "Blueberry Bread",
+    "Blueberry Muffin",
+    "Boiled Eggs",
+    "Buffalo Chicken Wrap",
+    "Build Your Own Breakfast Burrito",
+    "Build Your Own Omelette",
+    "Build Your Own Veggie Omelette",
+    "Butter Croissant",
+    "Calamari Salad",
+    "Carmelita Bar",
+    "Carne Asada Taco",
+    "Carrot Cake",
+    "Carrot Spiced Soup",
+    "Challah French Toast",
+    "Cheese Phesto Pizza",
+    "Cheese Pizza",
+    "Cheese and Tomato Pizza",
+    "Chicken Apple Breakfast Sausage",
+    "Chicken Breakfast Sausage",
+    "Chicken Parmesan with Pasta",
+    "Chicken Tikka Masala Soup",
+    "Chicken and Poblano Quesadilla",
+    "Chimichurri Sauce",
+    "Chipotle Black Bean Burger",
+    "Chipotle Chicken Ciabatta",
+    "Chips & Salsa",
+    "Chocolate Chip Brownies",
+    "Chocolate Ganache Swirl Cheesecake",
+    "Choley Beans",
+    "Chorizo Sausage Patties",
+    "Cinnamon Rolls with Cream Cheese Frosting",
+    "Cinnamon Sugar Cake Donut",
+    "Coconut Cake Donut",
+    "Congee Rice Porridge",
+    "Cowboy Macaroni Salad",
+    "Cranberry Orange Muffin",
+    "Cream Cheese Danish",
+    "Cubano Sandwich",
+    "Dark Chocolate Cranberry Cookie",
+    "Dessert Lemon Bar",
+    "Diced Hash Browns",
+    "Double Chocolate Cake",
+    "Double Chocolate Muffin",
+    "Dutch Apple Coffee Cake",
+    "Everything Bagel",
+    "Falafel Burger",
+    "Fettuccine Al Burro",
+    "Five Bean Chili",
+    "Franky's Pork Belly Taco",
+    "French Toast Bar",
+    "Fried Chicken Sandwich",
+    "Fried Eggplant Sandwich with Pepperoncini Slaw",
+    "Fried Eggs to Order",
+    "Fried Tater Tots",
+    "Frosted Brownie",
+    "Garlic Breadsticks",
+    "Glazed Cake Donut",
+    "Goat Cheese and Prosciutto Pizza",
+    "Grandma Mary's Chicken Soup",
+    "Grass-Fed Bacon Cheeseburger",
+    "Grass-Fed Cheeseburger",
+    "Grilled Asparagus",
+    "Grilled Corn and Squash Salsa",
+    "Grilled Garlic Naan",
+    "Guatemalan Mixta",
+    "Hawaiian Pizza",
+    "Impossible Buffalo Burger",
+    "Italian Feta Pasta Salad",
+    "Italian Hero",
+    "Italian Sausage and Broccoli Rabe Pizza",
+    "Jalapeño Kettle Chips",
+    "Jalapeño Popper Pasta Salad",
+    "Just Egg - Plant Based",
+    "Latin Bar",
+    "Lemon Chicken with Garlicky Kale and Fingerlings",
+    "Lemon Drop Cookie",
+    "Lemon Herb Chicken",
+    "Lemon Linguine Pasta Salad",
+    "Lomo Saltado",
+    "Long Grain Rice",
+    "M&M Brownie",
+    "Macadamias with White Chocolate Chips Cookie",
+    "Masala Cauliflower Soup",
+    "Mediterranean Bar",
+    "Mediterranean Burger",
+    "Mexican Chicken Tortilla Soup",
+    "Miller's Locally-Made Hot Dog",
+    "Mini Bear Claw",
+    "Mushroom and Onion Pizza",
+    "NY-Style Chopped Cheese Sandwich",
+    "Native 3 Sisters Bean Soup",
+    "New England Clam Chowder",
+    "New York Cheesecake Bar",
+    "Oatmeal",
+    "Onion Bagel",
+    "Onion Rings",
+    "Orange Cake",
+    "Organic Smoky Split Pea Soup",
+    "Overnight Oats",
+    "Pancake Bar||Wedge Fries||White Rice",
+    "Pasta Arrabiata",
+    "Pepperoni Pizza",
+    "Picnic Potato Salad",
+    "Plain Bagel",
+    "Plain Brownie",
+    "Plain Old Fashioned Donut",
+    "Plant Based Mexican Hot Dog",
+    "Plant Forward Breakfast Burrito Bar",
+    "Plant Forward Latin Bar",
+    "Plant Forward Mediterranean Bar",
+    "Plátanos Fritos",
+    "Poppy Seed Bagel",
+    "Poppy Seed Bread",
+    "Pork Breakfast Sausage Links",
+    "Pork Sausage Patties",
+    "Portobello Cheesesteak Sandwich",
+    "Powdered Sugar Cake Donut",
+    "Raised Chocolate Donut",
+    "Raised Maple Donut",
+    "Raised Sugar Donut",
+    "Raspberry Brownie Cheesecake Bar",
+    "Ravioli with Roasted Aggie-Grown Tomato Sauce",
+    "Roasted Brussels Sprouts",
+    "Roasted Fingerling Potatoes",
+    "Roasted Fresh Corn",
+    "Roasted Mushrooms and Garlic",
+    "Sausage Egg and Cheese Muffin",
+    "Sautéed Garlic Green Beans",
+    "Sautéed Spicy Shrimp",
+    "Sautéed Swiss Chard",
+    "Scrambled Egg",
+    "Scrambled Egg Whites",
+    "Scrambled Egg||Bacon",
+    "Scrambled Tofu",
+    "Sea Salt Kettle Chips",
+    "Seared Salmon with Tomato and Fresh Corn",
+    "Seared White Fish with Tomato Caper Sauce",
+    "Seasoned Wedge Fries",
+    "Sesame Bagel",
+    "Shoestring Potatoes",
+    "Smoked Cheddar & Bacon Potato Salad",
+    "Sourdough Bagel",
+    "Spaghetti and Meatballs",
+    "Sriracha Honey Chicken",
+    "Sticky Rice",
+    "Sticky Toffee Pudding Cake",
+    "Strawberry Icing Cake Donut",
+    "Strawberry Shortcake",
+    "Sweet and Sour Tofu with Rice",
+    "Szechuan Tofu",
+    "Tiramisu",
+    "Tres Leches Cake",
+    "Tri Tip",
+    "Triple Chocolate Cookie",
+    "Turkey Chili with Beans",
+    "Vanilla Chia Pudding",
+    "Waffle Bar",
+    "White Conchas - Sweet Bread",
+    "Whole Wheat Bagel",
+    "Winter White Cake Donut",
+    "Yellow Conchas - Sweet Bread"
+  ],
+  "days_tracked": 8
 }
