@@ -2,7 +2,7 @@
   {
     "dc": "Segundo",
     "url": "https://housing.ucdavis.edu/dining/dining-commons/segundo/",
-    "scrapedAt": "2026-10-16T17:55:08.264235",
+    "scrapedAt": "2026-10-17T16:56:32.923962",
     "dishes": [
       {
         "dc": "Segundo",
@@ -3391,88 +3391,6 @@
       {
         "dc": "Segundo",
         "meal": "Lunch",
-        "zone": "Red Zone",
-        "name": "Smackin' Alabama Chicken Sandwich",
-        "description": "A fried chicken sandwich topped with spicy smoky white BBQ sauce and served with a Jalapeno relish on a toasted bun.",
-        "dietary": [],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Sesame",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 748.58
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Red Zone",
-        "name": "Malibu Burger",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Sesame",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 456.46
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Pork Adobo Plate",
-        "description": "Filipino-inspired Pork Adobo served with sticky rice and bok choy",
-        "dietary": [],
-        "allergens": [
-          "Soy",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 521.41
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Blue Zone",
-        "name": "Indian Samosa with Chutney",
-        "description": "The Samosa is India`s favorite snack.  Vegetable Samosas are delicious pastries stuffed with well-seasoned potatoes, peas and herbs",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 500.08
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Blue Zone",
-        "name": "Grilled Naan",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Wheat/Gluten"
-        ],
-        "calories": 199.58
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
         "zone": "Green Zone",
         "name": "New England Clam Chowder",
         "description": "",
@@ -3532,10 +3450,27 @@
       },
       {
         "dc": "Segundo",
+        "meal": "Lunch",
+        "zone": "Pink Zone",
+        "name": "Snickerdoodle Cookie",
+        "description": "",
+        "dietary": [
+          "Vegetarian"
+        ],
+        "allergens": [
+          "Alcohol",
+          "Dairy",
+          "Egg",
+          "Wheat/Gluten"
+        ],
+        "calories": 229.63
+      },
+      {
+        "dc": "Segundo",
         "meal": "Dinner",
         "zone": "Red Zone",
         "name": "Smackin' Alabama Chicken Sandwich",
-        "description": "A fried chicken sandwich topped with spicy smoky white BBQ sauce and served with a Jalapeno relish on a toasted bun.",
+        "description": "A fried chicken sandwich topped with spicy smoky white BBQ sauce and served with pickled onions on a toasted bun.",
         "dietary": [],
         "allergens": [
           "Alcohol",
@@ -3584,17 +3519,14 @@
       {
         "dc": "Segundo",
         "meal": "Dinner",
-        "zone": "Blue Zone",
-        "name": "Lamb Korma with Locally Grown Basmati Rice",
-        "description": "Spicy Halal Indian lamb stewed in a tomato-yogurt base, served with garlic naan bread.",
-        "dietary": [
-          "Halal"
-        ],
+        "zone": "Yellow Zone",
+        "name": "House Roasted Salsa",
+        "description": "",
+        "dietary": [],
         "allergens": [
-          "Dairy",
-          "Wheat/Gluten"
+          "No major allergens"
         ],
-        "calories": 168.0
+        "calories": null
       },
       {
         "dc": "Segundo",
@@ -3716,7 +3648,7 @@
         "dc": "Segundo",
         "meal": "Breakfast",
         "zone": "Red Zone",
-        "name": "French Toast Bar",
+        "name": "Brunch French Toast Bar",
         "description": "",
         "dietary": [
           "Vegetarian"
@@ -3734,13 +3666,43 @@
         "dc": "Segundo",
         "meal": "Breakfast",
         "zone": "Red Zone",
-        "name": "Pork Sausage Patties",
-        "description": "Freshly-baked pork sausage patty.",
+        "name": "Bacon",
+        "description": "Freshly-baked crispy bacon.",
         "dietary": [],
         "allergens": [
           "No major allergens"
         ],
-        "calories": 182.24
+        "calories": 283.94
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Breakfast",
+        "zone": "Red Zone",
+        "name": "Roasted Marble Potatoes",
+        "description": "Roasted marble potatoes seasoned with thyme and oregano",
+        "dietary": [
+          "Vegan",
+          "Halal"
+        ],
+        "allergens": [
+          "No major allergens"
+        ],
+        "calories": 79.61
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Breakfast",
+        "zone": "Yellow Zone",
+        "name": "Roasted Marble Potatoes",
+        "description": "Roasted marble potatoes seasoned with thyme and oregano",
+        "dietary": [
+          "Vegan",
+          "Halal"
+        ],
+        "allergens": [
+          "No major allergens"
+        ],
+        "calories": 79.61
       },
       {
         "dc": "Segundo",
@@ -3879,7 +3841,7 @@
         "dc": "Segundo",
         "meal": "Lunch",
         "zone": "Red Zone",
-        "name": "2pm Italian Grilled Chicken Sandwich",
+        "name": "2pm Open Italian Grilled Chicken Sandwich",
         "description": "Grilled chicken, roasted red peppers, and fresh arugula on a toasted ciabatta bun, spread with our house-made phesto aioli and Italian dressing.",
         "dietary": [
           "Halal"
@@ -3895,7 +3857,7 @@
         "dc": "Segundo",
         "meal": "Lunch",
         "zone": "Red Zone",
-        "name": "2pm Falafel Burger",
+        "name": "2pm Open Falafel Burger",
         "description": "Deep-fried chickpea patties dressed with cucumber mint spread and harissa pickled onions, served on a toasted bun.",
         "dietary": [
           "Vegan",
@@ -3930,7 +3892,7 @@
         "dc": "Segundo",
         "meal": "Lunch",
         "zone": "Yellow Zone",
-        "name": "Omelette",
+        "name": "Brunch Omelette",
         "description": "Eggs with Assorted Meats, Assorted Vegetables, Cheese, Salsas, and Vegan Options.",
         "dietary": [],
         "allergens": [
@@ -4094,23 +4056,6 @@
           "No major allergens"
         ],
         "calories": 162.22
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Pink Zone",
-        "name": "Snickerdoodle Cookie",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Wheat/Gluten"
-        ],
-        "calories": 229.63
       },
       {
         "dc": "Segundo",
@@ -4382,7 +4327,7 @@
   {
     "dc": "Tercero",
     "url": "https://housing.ucdavis.edu/dining/dining-commons/tercero/",
-    "scrapedAt": "2026-10-16T17:55:13.276406",
+    "scrapedAt": "2026-10-17T16:56:38.232551",
     "dishes": [
       {
         "dc": "Tercero",
@@ -7843,16 +7788,19 @@
         "dc": "Tercero",
         "meal": "Lunch",
         "zone": "Red Zone",
-        "name": "Hot Pastrami Sandwich",
-        "description": "A NY style Pastrami sandwich. Stacked high with tender, Pepper-crusted Pastrami, sliced thin and served steaming hot on Rye Bread. Layered with melted Swiss cheese, tangy Mustard, and crisp Pickles for a bold, smoky, and savory bite that hits all the right notes.",
+        "name": "Grass-Fed Bistro Burger",
+        "description": "Grilled Grass-Fed Burger with Garlic Aioli Spread and Caramelized Onions.",
         "dietary": [],
         "allergens": [
+          "Alcohol",
           "Dairy",
+          "Egg",
+          "Sesame",
           "Soybean Oil",
           "Vinegar",
           "Wheat/Gluten"
         ],
-        "calories": 518.16
+        "calories": 865.52
       },
       {
         "dc": "Tercero",
@@ -7956,21 +7904,6 @@
       {
         "dc": "Tercero",
         "meal": "Lunch",
-        "zone": "Blue Zone",
-        "name": "Spicy Chili Fries",
-        "description": "Deep fried shoestring fries topped with our house spicy chili, vegan cheese, and chives.",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soybean Oil"
-        ],
-        "calories": 316.37
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Lunch",
         "zone": "Green Zone",
         "name": "New England Clam Chowder",
         "description": "",
@@ -8036,24 +7969,6 @@
         "dc": "Tercero",
         "meal": "Dinner",
         "zone": "Red Zone",
-        "name": "Grass-Fed Bistro Burger",
-        "description": "Grilled Grass-Fed Burger with Garlic Aioli Spread and Caramelized Onions.",
-        "dietary": [],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Sesame",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 865.52
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Dinner",
-        "zone": "Red Zone",
         "name": "Malibu Burger",
         "description": "",
         "dietary": [
@@ -8088,7 +8003,7 @@
         "dc": "Tercero",
         "meal": "Dinner",
         "zone": "Yellow Zone",
-        "name": "Coriander Crusted Salmon With Tomato Relish",
+        "name": "Coriander Crusted Salmon With Red Pepper Coulis",
         "description": "",
         "dietary": [],
         "allergens": [
@@ -8133,13 +8048,13 @@
         "dc": "Tercero",
         "meal": "Dinner",
         "zone": "Blue Zone",
-        "name": "Pozole Rojo de Puerco",
+        "name": "Chicken Pozole",
         "description": "",
         "dietary": [],
         "allergens": [
-          "Vinegar"
+          "No major allergens"
         ],
-        "calories": 183.2
+        "calories": null
       },
       {
         "dc": "Tercero",
@@ -8158,24 +8073,6 @@
           "Wheat/Gluten"
         ],
         "calories": 440.36
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Dinner",
-        "zone": "Green Zone",
-        "name": "Thai Lemongrass Pasta Salad",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soy",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 143.0
       },
       {
         "dc": "Tercero",
@@ -8265,7 +8162,7 @@
   {
     "dc": "Cuarto",
     "url": "https://housing.ucdavis.edu/dining/dining-commons/cuarto/",
-    "scrapedAt": "2026-10-16T17:55:18.157805",
+    "scrapedAt": "2026-10-17T16:56:43.499528",
     "dishes": [
       {
         "dc": "Cuarto",
@@ -11088,42 +10985,6 @@
       {
         "dc": "Cuarto",
         "meal": "Lunch",
-        "zone": "Red Zone",
-        "name": "Grass-Fed Bacon Cheeseburger",
-        "description": "",
-        "dietary": [],
-        "allergens": [
-          "Dairy",
-          "Sesame",
-          "Soy Lecithin",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 936.31
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Lunch",
-        "zone": "Red Zone",
-        "name": "Malibu Burger",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Sesame",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 456.46
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Lunch",
         "zone": "Yellow Zone",
         "name": "Korean Fried Chicken Sandwich",
         "description": "Tempura fried Chicken on a Brioche Bun topped with Kimchi, Pickled Cucumbers and a Spicy Mayo",
@@ -11183,6 +11044,7 @@
         "dietary": [],
         "allergens": [
           "Dairy",
+          "Soybean Oil",
           "Vinegar",
           "Wheat/Gluten"
         ],
@@ -11341,13 +11203,14 @@
         "dc": "Cuarto",
         "meal": "Dinner",
         "zone": "Blue Zone",
-        "name": "Sausage and Onion Pizza",
-        "description": "Fresh pizza topped with cheese, sausage, and onion.",
+        "name": "Prosciutto and Onion Pizza",
+        "description": "Fresh pizza topped with goat cheese, prosciutto, and onion. Balsamic reduction and olive oil.",
         "dietary": [],
         "allergens": [
           "Alcohol",
           "Dairy",
           "Soybean Oil",
+          "Vinegar",
           "Wheat/Gluten"
         ],
         "calories": 225.04
