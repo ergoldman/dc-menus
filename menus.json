@@ -2,65 +2,8 @@
   {
     "dc": "Segundo",
     "url": "https://housing.ucdavis.edu/dining/dining-commons/segundo/",
-    "scrapedAt": "2026-11-15T19:39:37.373422",
+    "scrapedAt": "2026-11-16T23:16:41.583403",
     "dishes": [
-      {
-        "dc": "Segundo",
-        "meal": "Breakfast",
-        "zone": "Red Zone",
-        "name": "Pork Hash",
-        "description": "Marinated pork served with a vegetable medley of diced potatoes, butternut squash, bell peppers, and onions.",
-        "dietary": [],
-        "allergens": [
-          "Egg",
-          "Soybean Oil"
-        ],
-        "calories": 454.96
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Breakfast",
-        "zone": "Red Zone",
-        "name": "Scrambled Egg",
-        "description": "Softly scrambled cage-free eggs.",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Egg"
-        ],
-        "calories": 138.75
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Breakfast",
-        "zone": "Red Zone",
-        "name": "Chorizo Sausage Patties",
-        "description": "Freshly-baked spicy pork chorizo sausage patty.",
-        "dietary": [],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 158.96
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Breakfast",
-        "zone": "Red Zone",
-        "name": "Spicy Sidewinder Potato",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 761.09
-      },
       {
         "dc": "Segundo",
         "meal": "Breakfast",
@@ -257,18 +200,17 @@
         "meal": "Lunch",
         "zone": "Red Zone",
         "name": "Grass-Fed Bistro Burger",
-        "description": "Grilled Grass-Fed Burger with Garlic Aioli Spread and Caramelized Onions.",
+        "description": "Grilled Grass-Fed Burger with Garlic Aioli Spread and Caramelized Onions on a potato bun",
         "dietary": [],
         "allergens": [
           "Alcohol",
           "Dairy",
           "Egg",
-          "Sesame",
           "Soybean Oil",
           "Vinegar",
           "Wheat/Gluten"
         ],
-        "calories": 865.52
+        "calories": null
       },
       {
         "dc": "Segundo",
@@ -308,120 +250,6 @@
         "dc": "Segundo",
         "meal": "Lunch",
         "zone": "Yellow Zone",
-        "name": "Build Your Own Omelette",
-        "description": "Eggs with Assorted Meats, Assorted Vegetables, Cheese, Salsas, and Vegan Options.",
-        "dietary": [],
-        "allergens": [
-          "Dairy",
-          "Egg",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar"
-        ],
-        "calories": 97.74
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Build Your Own Veggie Omelette",
-        "description": "Assorted Vegan Options, Assorted Vegetables, Cheese, Salsas",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Soy",
-          "Soy Lecithin",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 49.87
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Fried Eggs to Order",
-        "description": "Egg fried to your request.\n\n*Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness, especially if you have certain medical conditions.",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Egg"
-        ],
-        "calories": 196.04
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Scrambled Egg Whites",
-        "description": "Light and fluffy egg whites with a variety of available toppings.",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Egg"
-        ],
-        "calories": 121.32
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Scrambled Tofu",
-        "description": "Scrambled Locally made Organic Hodo Tofu cooked with onions, bell peppers and soy sauce.",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soy",
-          "Wheat/Gluten"
-        ],
-        "calories": 130.84
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Just Egg - Plant Based",
-        "description": "Plant based scrambled egg",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soy Lecithin"
-        ],
-        "calories": 136.6
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Spicy Sidewinder Potato",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 761.09
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
         "name": "Pepperoni Pizza",
         "description": "Pizza topped with pepperoni, Mozzarella, and Parmesan cheese.",
         "dietary": [
@@ -433,6 +261,23 @@
           "Wheat/Gluten"
         ],
         "calories": 218.93
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Lunch",
+        "zone": "Yellow Zone",
+        "name": "Cheese Pizza",
+        "description": "Topped with our house-made tomato sauce, Mozzarella, and Parmesan cheese.",
+        "dietary": [
+          "Vegetarian",
+          "Halal"
+        ],
+        "allergens": [
+          "Dairy",
+          "Soybean Oil",
+          "Wheat/Gluten"
+        ],
+        "calories": 199.72
       },
       {
         "dc": "Segundo",
@@ -597,34 +442,16 @@
         "dc": "Segundo",
         "meal": "Dinner",
         "zone": "Red Zone",
-        "name": "Seasoned Wedge Fries",
-        "description": "Crispy deep-fried potato wedges.",
+        "name": "Shoestring Potatoes",
+        "description": "Crispy thin-cut potato fries.",
         "dietary": [
           "Vegan",
           "Halal"
         ],
         "allergens": [
-          "Soybean Oil",
-          "Wheat/Gluten"
+          "Soybean Oil"
         ],
-        "calories": 272.53
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "Cheese Pizza",
-        "description": "Topped with our house-made tomato sauce, Mozzarella, and Parmesan cheese.",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 199.72
+        "calories": 286.08
       },
       {
         "dc": "Segundo",
@@ -648,16 +475,51 @@
         "dc": "Segundo",
         "meal": "Dinner",
         "zone": "Yellow Zone",
-        "name": "Sausage and Mushroom Pizza",
-        "description": "A savory slice made with our house-made tomato sauce and topped with Andouille pork sausage, mozzarella, and mushrooms.",
-        "dietary": [],
+        "name": "Garlic Breadsticks",
+        "description": "",
+        "dietary": [
+          "Halal"
+        ],
         "allergens": [
-          "Alcohol",
+          "Dairy",
+          "Sesame",
+          "Soybean Oil",
+          "Wheat/Gluten"
+        ],
+        "calories": 110.56
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Yellow Zone",
+        "name": "Pepperoni Pizza",
+        "description": "Pizza topped with pepperoni, Mozzarella, and Parmesan cheese.",
+        "dietary": [
+          "Halal"
+        ],
+        "allergens": [
           "Dairy",
           "Soybean Oil",
           "Wheat/Gluten"
         ],
-        "calories": 221.45
+        "calories": 218.93
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Yellow Zone",
+        "name": "Cheese Pizza",
+        "description": "Topped with our house-made tomato sauce, Mozzarella, and Parmesan cheese.",
+        "dietary": [
+          "Vegetarian",
+          "Halal"
+        ],
+        "allergens": [
+          "Dairy",
+          "Soybean Oil",
+          "Wheat/Gluten"
+        ],
+        "calories": 199.72
       },
       {
         "dc": "Segundo",
@@ -693,74 +555,6 @@
           "Wheat/Gluten"
         ],
         "calories": 326.32
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Green Zone",
-        "name": "Tuna Salad",
-        "description": "Tuna with celery, onion, relish, and mayonnaise.",
-        "dietary": [
-          "Halal"
-        ],
-        "allergens": [
-          "Egg",
-          "Fish",
-          "Soybean Oil",
-          "Vinegar"
-        ],
-        "calories": 264.48
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Green Zone",
-        "name": "Traditional Hummus",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Sesame"
-        ],
-        "calories": 249.99
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Green Zone",
-        "name": "Smoked Cheddar & Bacon Potato Salad",
-        "description": "",
-        "dietary": [],
-        "allergens": [
-          "Dairy",
-          "Egg",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar"
-        ],
-        "calories": 207.0
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Green Zone",
-        "name": "Cowboy Macaroni Salad",
-        "description": "",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Egg",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 171.0
       },
       {
         "dc": "Segundo",
@@ -806,38 +600,22 @@
         "dc": "Segundo",
         "meal": "Dinner",
         "zone": "Purple Zone",
-        "name": "Roasted Butternut Squash",
-        "description": "Butternut squash lightly seasoned and roasted.",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 76.77
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Purple Zone",
-        "name": "Roasted and Grilled Eggplant",
-        "description": "Seasoned Grilled or Roasted Eggplant.",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 37.24
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Purple Zone",
-        "name": "Sautéed Kale",
+        "name": "Assorted Vegetables",
         "description": "",
+        "dietary": [
+          "Vegan"
+        ],
+        "allergens": [
+          "No major allergens"
+        ],
+        "calories": null
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Purple Zone",
+        "name": "Red Creole Beans",
+        "description": "Flavorful Kidney beans simmered with spices.",
         "dietary": [
           "Vegan",
           "Halal"
@@ -845,110 +623,7 @@
         "allergens": [
           "Vinegar"
         ],
-        "calories": 61.91
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Tiramisu",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Wheat/Gluten"
-        ],
-        "calories": 141.85
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Orange Cake",
-        "description": "",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Egg",
-          "Soy Lecithin",
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 299.03
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Double Chocolate Chip Mint Condition Cookie",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Wheat/Gluten"
-        ],
-        "calories": 242.67
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Macadamias and White Chocolate Chips Cookie",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Tree Nuts",
-          "Wheat/Gluten"
-        ],
-        "calories": 241.54
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Chocolate Chip Cookie",
-        "description": "",
-        "dietary": [
-          "Vegan"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Soy",
-          "Soy Lecithin",
-          "Wheat/Gluten"
-        ],
-        "calories": 188.81
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Lemon Drop Cookie",
-        "description": "",
-        "dietary": [
-          "Vegan"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Wheat/Gluten"
-        ],
-        "calories": 155.92
+        "calories": null
       },
       {
         "dc": "Segundo",
@@ -965,6 +640,21 @@
           "Wheat/Gluten"
         ],
         "calories": 472.32
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Breakfast",
+        "zone": "Red Zone",
+        "name": "Scrambled Egg",
+        "description": "Softly scrambled cage-free eggs.",
+        "dietary": [
+          "Vegetarian",
+          "Halal"
+        ],
+        "allergens": [
+          "Egg"
+        ],
+        "calories": 138.75
       },
       {
         "dc": "Segundo",
@@ -1178,60 +868,6 @@
       {
         "dc": "Segundo",
         "meal": "Lunch",
-        "zone": "Red Zone",
-        "name": "Grass-Fed Cheeseburger",
-        "description": "Grass-fed beef patty, grilled and served on a sesame bun with melted American cheese.",
-        "dietary": [
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Sesame",
-          "Soy Lecithin",
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 487.81
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Red Zone",
-        "name": "Malibu Burger",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Sesame",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 456.46
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Pasta Bar",
-        "description": "BYO Pasta with All-Beef Meatballs, Grilled Chicken and your choice of Sauces.",
-        "dietary": [],
-        "allergens": [
-          "Dairy",
-          "Egg",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 117.81
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
         "zone": "Yellow Zone",
         "name": "Cheese Phesto Pizza",
         "description": "Topped with our house arugula \"phesto\" and a blend of Mozzarella and Parmesan cheeses.",
@@ -1251,7 +887,7 @@
         "meal": "Lunch",
         "zone": "Blue Zone",
         "name": "BYO Mongolian BBQ",
-        "description": "Lo Mein Noodles with fresh toppings including: Garlic, Ginger, Chicken, Tofu, Green Cabbage, Carrots, Peppers, Onions, Celery, Broccoli, and Chicken.\n***If you would like your dish cooked on a separate sauté pan, please ask!",
+        "description": "Lo Mein Noodles with fresh toppings including: Chicken, Plant Forward Beef, Tofu and assorted vegetables . ***If you would like your dish cooked on a separate sauté pan, please ask!",
         "dietary": [],
         "allergens": [
           "Alcohol",
@@ -1268,7 +904,7 @@
         "meal": "Lunch",
         "zone": "Blue Zone",
         "name": "BYO Veggie Mongolian BBQ",
-        "description": "Lo Mein Noodles with fresh toppings including: Tofu, Green Cabbage, Orange Carrots, Peppers, Onions, Celery, Broccoli, Garlic, and Ginger.\n***If you would like your dish cooked on a separate sauté pan, please ask!",
+        "description": "***If you would like your dish cooked on a separate sauté pan, please ask!",
         "dietary": [
           "Vegan"
         ],
@@ -1279,25 +915,6 @@
           "Wheat/Gluten"
         ],
         "calories": 104.27
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Blue Zone",
-        "name": "Teriyaki Tofu with Locally Grown Sticky Rice",
-        "description": "Locally made Organic Hodo Tofu tossed in Teriyaki Sauce and served with locally grown Organic Sticky Rice",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Sesame",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 458.42
       },
       {
         "dc": "Segundo",
@@ -1345,21 +962,6 @@
           "Vinegar"
         ],
         "calories": 264.48
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Green Zone",
-        "name": "Traditional Hummus",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Sesame"
-        ],
-        "calories": 249.99
       },
       {
         "dc": "Segundo",
@@ -1427,21 +1029,6 @@
         "dc": "Segundo",
         "meal": "Lunch",
         "zone": "Purple Zone",
-        "name": "Roasted Turmeric Cauliflower",
-        "description": "Roasted cauliflower with turmeric",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 46.48
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Purple Zone",
         "name": "Chips & Salsa",
         "description": "",
         "dietary": [
@@ -1470,24 +1057,6 @@
           "Wheat/Gluten"
         ],
         "calories": 207.43
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Pink Zone",
-        "name": "Chocolate Ganache Swirl Cheesecake",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Soy Lecithin",
-          "Wheat/Gluten"
-        ],
-        "calories": 313.55
       },
       {
         "dc": "Segundo",
@@ -1593,21 +1162,6 @@
       {
         "dc": "Segundo",
         "meal": "Dinner",
-        "zone": "Red Zone",
-        "name": "Shoestring Potatoes",
-        "description": "Crispy thin-cut potato fries.",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soybean Oil"
-        ],
-        "calories": 286.08
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
         "zone": "Yellow Zone",
         "name": "Grilled Chicken Inasal with Java Rice",
         "description": "Filipino-inspired dish with ginger-citrus marinated chicken and yellow fried rice",
@@ -1618,22 +1172,6 @@
           "Vinegar"
         ],
         "calories": 561.72
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "Pepperoni Pizza",
-        "description": "Pizza topped with pepperoni, Mozzarella, and Parmesan cheese.",
-        "dietary": [
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 218.93
       },
       {
         "dc": "Segundo",
@@ -1713,6 +1251,54 @@
           "No major allergens"
         ],
         "calories": 66.0
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Green Zone",
+        "name": "Tuna Salad",
+        "description": "Tuna with celery, onion, relish, and mayonnaise.",
+        "dietary": [
+          "Halal"
+        ],
+        "allergens": [
+          "Egg",
+          "Fish",
+          "Soybean Oil",
+          "Vinegar"
+        ],
+        "calories": 264.48
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Green Zone",
+        "name": "Traditional Hummus",
+        "description": "",
+        "dietary": [
+          "Vegan",
+          "Halal"
+        ],
+        "allergens": [
+          "Sesame"
+        ],
+        "calories": 249.99
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Green Zone",
+        "name": "Smoked Cheddar & Bacon Potato Salad",
+        "description": "",
+        "dietary": [],
+        "allergens": [
+          "Dairy",
+          "Egg",
+          "Soy",
+          "Soybean Oil",
+          "Vinegar"
+        ],
+        "calories": 207.0
       },
       {
         "dc": "Segundo",
@@ -1858,6 +1444,56 @@
           "Wheat/Gluten"
         ],
         "calories": 233.03
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Pink Zone",
+        "name": "Macadamias and White Chocolate Chips Cookie",
+        "description": "",
+        "dietary": [
+          "Vegetarian"
+        ],
+        "allergens": [
+          "Alcohol",
+          "Dairy",
+          "Egg",
+          "Tree Nuts",
+          "Wheat/Gluten"
+        ],
+        "calories": 241.54
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Pink Zone",
+        "name": "Chocolate Chip Cookie",
+        "description": "",
+        "dietary": [
+          "Vegan"
+        ],
+        "allergens": [
+          "Alcohol",
+          "Soy",
+          "Soy Lecithin",
+          "Wheat/Gluten"
+        ],
+        "calories": 188.81
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Pink Zone",
+        "name": "Lemon Drop Cookie",
+        "description": "",
+        "dietary": [
+          "Vegan"
+        ],
+        "allergens": [
+          "Alcohol",
+          "Wheat/Gluten"
+        ],
+        "calories": 155.92
       },
       {
         "dc": "Segundo",
@@ -2768,6 +2404,23 @@
         "dc": "Segundo",
         "meal": "Dinner",
         "zone": "Pink Zone",
+        "name": "Double Chocolate Chip Mint Condition Cookie",
+        "description": "",
+        "dietary": [
+          "Vegetarian"
+        ],
+        "allergens": [
+          "Alcohol",
+          "Dairy",
+          "Egg",
+          "Wheat/Gluten"
+        ],
+        "calories": 242.67
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Pink Zone",
         "name": "Snickerdoodle Cookie",
         "description": "",
         "dietary": [
@@ -2974,23 +2627,6 @@
       {
         "dc": "Segundo",
         "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Cheese Pizza",
-        "description": "Topped with our house-made tomato sauce, Mozzarella, and Parmesan cheese.",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 199.72
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
         "zone": "Blue Zone",
         "name": "Mongolian BBQ",
         "description": "Lo Mein Noodles with fresh toppings including: Garlic, Ginger, Chicken, Tofu, Green Cabbage, Carrots, Peppers, Onions, Celery, Broccoli, and Chicken.\n***If you would like your dish cooked on a separate sauté pan, please ask!",
@@ -3039,6 +2675,21 @@
           "Wheat/Gluten"
         ],
         "calories": 570.15
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Lunch",
+        "zone": "Green Zone",
+        "name": "Traditional Hummus",
+        "description": "",
+        "dietary": [
+          "Vegan",
+          "Halal"
+        ],
+        "allergens": [
+          "Sesame"
+        ],
+        "calories": 249.99
       },
       {
         "dc": "Segundo",
@@ -3401,6 +3052,23 @@
       },
       {
         "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Pink Zone",
+        "name": "Tiramisu",
+        "description": "",
+        "dietary": [
+          "Vegetarian"
+        ],
+        "allergens": [
+          "Alcohol",
+          "Dairy",
+          "Egg",
+          "Wheat/Gluten"
+        ],
+        "calories": 141.85
+      },
+      {
+        "dc": "Segundo",
         "meal": "Breakfast",
         "zone": "Red Zone",
         "name": "Biscuits and Gravy",
@@ -3424,6 +3092,23 @@
           "Dairy"
         ],
         "calories": 91.29
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Breakfast",
+        "zone": "Red Zone",
+        "name": "Spicy Sidewinder Potato",
+        "description": "Fried potatoes tossed in a \"Fierce\" sauce of Spanish decent, tomato-based, with a smoky, fiery kick!",
+        "dietary": [
+          "Vegetarian"
+        ],
+        "allergens": [
+          "Alcohol",
+          "Soybean Oil",
+          "Vinegar",
+          "Wheat/Gluten"
+        ],
+        "calories": 761.09
       },
       {
         "dc": "Segundo",
@@ -4367,6 +4052,24 @@
         "dc": "Segundo",
         "meal": "Lunch",
         "zone": "Pink Zone",
+        "name": "Chocolate Ganache Swirl Cheesecake",
+        "description": "",
+        "dietary": [
+          "Vegetarian"
+        ],
+        "allergens": [
+          "Alcohol",
+          "Dairy",
+          "Egg",
+          "Soy Lecithin",
+          "Wheat/Gluten"
+        ],
+        "calories": 313.55
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Lunch",
+        "zone": "Pink Zone",
         "name": "Plain Brownie",
         "description": "",
         "dietary": [
@@ -4633,6 +4336,18 @@
       {
         "dc": "Segundo",
         "meal": "Breakfast",
+        "zone": "Red Zone",
+        "name": "Chorizo Sausage Patties",
+        "description": "Freshly-baked spicy pork chorizo sausage patty.",
+        "dietary": [],
+        "allergens": [
+          "No major allergens"
+        ],
+        "calories": 158.96
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Breakfast",
         "zone": "Yellow Zone",
         "name": "Diced Hash Browns",
         "description": "Crispy hash brown potatoes.",
@@ -4685,6 +4400,24 @@
         "dc": "Segundo",
         "meal": "Lunch",
         "zone": "Red Zone",
+        "name": "Grass-Fed Cheeseburger",
+        "description": "Grass-fed beef patty, grilled and served on a sesame bun with melted American cheese.",
+        "dietary": [
+          "Halal"
+        ],
+        "allergens": [
+          "Dairy",
+          "Sesame",
+          "Soy Lecithin",
+          "Soybean Oil",
+          "Wheat/Gluten"
+        ],
+        "calories": 487.81
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Lunch",
+        "zone": "Red Zone",
         "name": "Impossible Buffalo Burger",
         "description": "",
         "dietary": [
@@ -4699,6 +4432,42 @@
           "Wheat/Gluten"
         ],
         "calories": 519.49
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Lunch",
+        "zone": "Yellow Zone",
+        "name": "Build Your Own Omelette",
+        "description": "Eggs with Assorted Meats, Assorted Vegetables, Cheese, Salsas, and Vegan Options.",
+        "dietary": [],
+        "allergens": [
+          "Dairy",
+          "Egg",
+          "Soy",
+          "Soybean Oil",
+          "Vinegar"
+        ],
+        "calories": 97.74
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Lunch",
+        "zone": "Yellow Zone",
+        "name": "Build Your Own Veggie Omelette",
+        "description": "Assorted Vegan Options, Assorted Vegetables, Cheese, Salsas",
+        "dietary": [
+          "Vegetarian",
+          "Halal"
+        ],
+        "allergens": [
+          "Dairy",
+          "Soy",
+          "Soy Lecithin",
+          "Soybean Oil",
+          "Vinegar",
+          "Wheat/Gluten"
+        ],
+        "calories": 49.87
       },
       {
         "dc": "Segundo",
@@ -4789,41 +4558,6 @@
       },
       {
         "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Pink Zone",
-        "name": "M&M Brownie",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Soy Lecithin",
-          "Wheat/Gluten"
-        ],
-        "calories": 265.35
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
-        "zone": "Pink Zone",
-        "name": "Double Chocolate Chip Mint Condition Cookie",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Wheat/Gluten"
-        ],
-        "calories": 242.67
-      },
-      {
-        "dc": "Segundo",
         "meal": "Dinner",
         "zone": "Red Zone",
         "name": "Impossible Buffalo Burger",
@@ -4856,22 +4590,6 @@
           "Wheat/Gluten"
         ],
         "calories": 456.52
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "Garlic Breadsticks",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 110.56
       },
       {
         "dc": "Segundo",
@@ -4962,85 +4680,51 @@
           "Vinegar"
         ],
         "calories": 122.44
+      },
+      {
+        "dc": "Segundo",
+        "meal": "Dinner",
+        "zone": "Purple Zone",
+        "name": "Roasted Butternut Squash",
+        "description": "Butternut squash lightly seasoned and roasted.",
+        "dietary": [
+          "Vegan",
+          "Halal"
+        ],
+        "allergens": [
+          "No major allergens"
+        ],
+        "calories": 76.77
       }
     ]
   },
   {
     "dc": "Tercero",
     "url": "https://housing.ucdavis.edu/dining/dining-commons/tercero/",
-    "scrapedAt": "2026-11-15T19:39:53.686488",
+    "scrapedAt": "2026-11-16T23:16:46.800270",
     "dishes": [
       {
         "dc": "Tercero",
         "meal": "Breakfast",
         "zone": "Yellow Zone",
-        "name": "Build Your Own Omelette",
-        "description": "Eggs with Assorted Meats, Assorted Vegetables, Cheese, Salsas, and Vegan Options.",
+        "name": "Build Your Own Omelette || Fried Eggs to Order",
+        "description": "Eggs with Assorted Meats, Assorted Vegetables, Cheese, Salsas, and Vegan Options. And eggs fried to your request.\n\n*Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness, especially if you have certain medical conditions.",
         "dietary": [],
         "allergens": [
           "Dairy",
           "Egg",
           "Soy",
+          "Soy Lecithin",
           "Soybean Oil",
           "Vinegar"
         ],
-        "calories": 97.74
+        "calories": 68.08
       },
       {
         "dc": "Tercero",
         "meal": "Breakfast",
         "zone": "Yellow Zone",
-        "name": "Build Your Own Veggie Omelette",
-        "description": "Assorted Vegan Options, Assorted Vegetables, Cheese, Salsas",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Soy",
-          "Soy Lecithin",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 49.87
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Breakfast",
-        "zone": "Yellow Zone",
-        "name": "Fried Eggs to Order",
-        "description": "Egg fried to your request.\n\n*Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness, especially if you have certain medical conditions.",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Egg"
-        ],
-        "calories": 196.04
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Breakfast",
-        "zone": "Yellow Zone",
-        "name": "Scrambled Egg Whites",
-        "description": "Light and fluffy egg whites with a variety of available toppings.",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Egg"
-        ],
-        "calories": 121.32
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Breakfast",
-        "zone": "Yellow Zone",
-        "name": "Scrambled Tofu",
+        "name": "Scrambled Tofu || Just Egg (Plant-Based)",
         "description": "Scrambled Locally made Organic Hodo Tofu cooked with onions, bell peppers and soy sauce.",
         "dietary": [
           "Vegan",
@@ -5048,24 +4732,10 @@
         ],
         "allergens": [
           "Soy",
+          "Soy Lecithin",
           "Wheat/Gluten"
         ],
         "calories": 130.84
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Breakfast",
-        "zone": "Yellow Zone",
-        "name": "Just Egg - Plant Based",
-        "description": "Plant based scrambled egg",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soy Lecithin"
-        ],
-        "calories": 136.6
       },
       {
         "dc": "Tercero",
@@ -5117,31 +4787,32 @@
         "dc": "Tercero",
         "meal": "Breakfast",
         "zone": "Blue Zone",
-        "name": "Fried Tater Tots",
-        "description": "Crispy, deep fried tater tots",
+        "name": "Seasoned Wedge Fries",
+        "description": "Crispy deep-fried potato wedges.",
         "dietary": [
           "Vegan",
           "Halal"
         ],
         "allergens": [
-          "Soybean Oil"
+          "Soybean Oil",
+          "Wheat/Gluten"
         ],
-        "calories": 312.64
+        "calories": 272.53
       },
       {
         "dc": "Tercero",
         "meal": "Breakfast",
-        "zone": "Green Zone",
-        "name": "Overnight Oats",
-        "description": "Overnight Oats house-made with Greek yogurt, coconut and soy milk.",
+        "zone": "Blue Zone",
+        "name": "Locally Grown Sticky Rice",
+        "description": "",
         "dietary": [
-          "Vegetarian"
+          "Vegan",
+          "Halal"
         ],
         "allergens": [
-          "Dairy",
-          "Soy"
+          "No major allergens"
         ],
-        "calories": 36.61
+        "calories": 199.24
       },
       {
         "dc": "Tercero",
@@ -5391,8 +5062,8 @@
         "dc": "Tercero",
         "meal": "Lunch",
         "zone": "Red Zone",
-        "name": "Grass-Fed Cheeseburger",
-        "description": "Grass-fed beef patty, grilled and served on a sesame bun with melted American cheese.",
+        "name": "Grass-Fed Cheeseburger with Pastrami and Provolone Cheese",
+        "description": "Grass-fed beef patty, grilled and served on a sesame bun with melted Provolone cheese.",
         "dietary": [
           "Halal"
         ],
@@ -5442,8 +5113,8 @@
         "dc": "Tercero",
         "meal": "Lunch",
         "zone": "Yellow Zone",
-        "name": "Butternut and Bacon Penne",
-        "description": "Bacon, onions, and roasted butternut squash tossed with penne and our house Alfredo sauce.",
+        "name": "Butternut and Bacon Pasta",
+        "description": "Bacon, onions, and roasted butternut squash tossed with pasta and our house Alfredo sauce.",
         "dietary": [],
         "allergens": [
           "Dairy",
@@ -5456,7 +5127,7 @@
         "dc": "Tercero",
         "meal": "Lunch",
         "zone": "Yellow Zone",
-        "name": "Garlic Breadsticks",
+        "name": "Plain Breadsticks",
         "description": "",
         "dietary": [
           "Vegan",
@@ -5530,22 +5201,6 @@
           "Vinegar"
         ],
         "calories": 45.32
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Lunch",
-        "zone": "Blue Zone",
-        "name": "\"Ricotta\" and Penne",
-        "description": "",
-        "dietary": [
-          "Vegan"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Soy",
-          "Wheat/Gluten"
-        ],
-        "calories": 333.85
       },
       {
         "dc": "Tercero",
@@ -5697,8 +5352,8 @@
         "dc": "Tercero",
         "meal": "Lunch",
         "zone": "Purple Zone",
-        "name": "Sautéed Garlic Green Beans",
-        "description": "Fresh green beans sautéed with garlic and lightly seasoned",
+        "name": "Assorted Vegetables",
+        "description": "",
         "dietary": [
           "Vegan",
           "Halal"
@@ -5706,7 +5361,7 @@
         "allergens": [
           "No major allergens"
         ],
-        "calories": 337.06
+        "calories": null
       },
       {
         "dc": "Tercero",
@@ -5861,74 +5516,6 @@
           "Wheat/Gluten"
         ],
         "calories": 313.17
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "Ravioli with Roasted Aggie-Grown Tomato Sauce",
-        "description": "Cheese Ravioli topped with our House Roasted Tomato Sauce featuring Aggie-Grown Tomatoes, Garlic, and fresh Basil.",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 501.81
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "Garlic Breadsticks",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 110.56
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "BBQ Chicken Pizza",
-        "description": "",
-        "dietary": [
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Soy",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 136.09
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "Mushroom and Onion Pizza",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Soy",
-          "Wheat/Gluten"
-        ],
-        "calories": 103.18
       },
       {
         "dc": "Tercero",
@@ -6277,6 +5864,103 @@
       {
         "dc": "Tercero",
         "meal": "Breakfast",
+        "zone": "Yellow Zone",
+        "name": "Build Your Own Omelette",
+        "description": "Eggs with Assorted Meats, Assorted Vegetables, Cheese, Salsas, and Vegan Options.",
+        "dietary": [],
+        "allergens": [
+          "Dairy",
+          "Egg",
+          "Soy",
+          "Soybean Oil",
+          "Vinegar"
+        ],
+        "calories": 97.74
+      },
+      {
+        "dc": "Tercero",
+        "meal": "Breakfast",
+        "zone": "Yellow Zone",
+        "name": "Build Your Own Veggie Omelette",
+        "description": "Assorted Vegan Options, Assorted Vegetables, Cheese, Salsas",
+        "dietary": [
+          "Vegetarian",
+          "Halal"
+        ],
+        "allergens": [
+          "Dairy",
+          "Soy",
+          "Soy Lecithin",
+          "Soybean Oil",
+          "Vinegar",
+          "Wheat/Gluten"
+        ],
+        "calories": 49.87
+      },
+      {
+        "dc": "Tercero",
+        "meal": "Breakfast",
+        "zone": "Yellow Zone",
+        "name": "Fried Eggs to Order",
+        "description": "Egg fried to your request.\n\n*Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness, especially if you have certain medical conditions.",
+        "dietary": [
+          "Vegetarian",
+          "Halal"
+        ],
+        "allergens": [
+          "Egg"
+        ],
+        "calories": 196.04
+      },
+      {
+        "dc": "Tercero",
+        "meal": "Breakfast",
+        "zone": "Yellow Zone",
+        "name": "Scrambled Egg Whites",
+        "description": "Light and fluffy egg whites with a variety of available toppings.",
+        "dietary": [
+          "Vegetarian",
+          "Halal"
+        ],
+        "allergens": [
+          "Egg"
+        ],
+        "calories": 121.32
+      },
+      {
+        "dc": "Tercero",
+        "meal": "Breakfast",
+        "zone": "Yellow Zone",
+        "name": "Scrambled Tofu",
+        "description": "Scrambled Locally made Organic Hodo Tofu cooked with onions, bell peppers and soy sauce.",
+        "dietary": [
+          "Vegan",
+          "Halal"
+        ],
+        "allergens": [
+          "Soy",
+          "Wheat/Gluten"
+        ],
+        "calories": 130.84
+      },
+      {
+        "dc": "Tercero",
+        "meal": "Breakfast",
+        "zone": "Yellow Zone",
+        "name": "Just Egg - Plant Based",
+        "description": "Plant based scrambled egg",
+        "dietary": [
+          "Vegan",
+          "Halal"
+        ],
+        "allergens": [
+          "Soy Lecithin"
+        ],
+        "calories": 136.6
+      },
+      {
+        "dc": "Tercero",
+        "meal": "Breakfast",
         "zone": "Blue Zone",
         "name": "Chicken Fried Steak and Biscuit",
         "description": "Crispy chicken-fried beef steak over a biscuit, topped with our house-made pork gravy",
@@ -6299,22 +5983,6 @@
           "No major allergens"
         ],
         "calories": 182.24
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Breakfast",
-        "zone": "Blue Zone",
-        "name": "Seasoned Wedge Fries",
-        "description": "Crispy deep-fried potato wedges.",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 272.53
       },
       {
         "dc": "Tercero",
@@ -7171,6 +6839,21 @@
       {
         "dc": "Tercero",
         "meal": "Breakfast",
+        "zone": "Green Zone",
+        "name": "Overnight Oats",
+        "description": "Overnight Oats house-made with Greek yogurt, coconut and soy milk.",
+        "dietary": [
+          "Vegetarian"
+        ],
+        "allergens": [
+          "Dairy",
+          "Soy"
+        ],
+        "calories": 36.61
+      },
+      {
+        "dc": "Tercero",
+        "meal": "Breakfast",
         "zone": "Pink Zone",
         "name": "Raised Maple Donut",
         "description": "",
@@ -7848,6 +7531,21 @@
       {
         "dc": "Tercero",
         "meal": "Breakfast",
+        "zone": "Blue Zone",
+        "name": "Fried Tater Tots",
+        "description": "Crispy, deep fried tater tots",
+        "dietary": [
+          "Vegan",
+          "Halal"
+        ],
+        "allergens": [
+          "Soybean Oil"
+        ],
+        "calories": 312.64
+      },
+      {
+        "dc": "Tercero",
+        "meal": "Breakfast",
         "zone": "Pink Zone",
         "name": "Raised Glazed Donut",
         "description": "",
@@ -8024,6 +7722,21 @@
           "No major allergens"
         ],
         "calories": 293.7
+      },
+      {
+        "dc": "Tercero",
+        "meal": "Lunch",
+        "zone": "Red Zone",
+        "name": "Jalapeño Kettle Chips || Sea Salt Kettle Chips",
+        "description": "",
+        "dietary": [
+          "Vegan",
+          "Halal"
+        ],
+        "allergens": [
+          "No major allergens"
+        ],
+        "calories": 303.91
       },
       {
         "dc": "Tercero",
@@ -8293,21 +8006,6 @@
           "Wheat/Gluten"
         ],
         "calories": 759.25
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Dinner",
-        "zone": "Green Zone",
-        "name": "Cuban Potato Salad",
-        "description": "A delightful blend of Yukon potatoes and yams, tossed in a vibrant mixture of extra virgin olive oil, zesty lime juice, fresh cilantro, smoked paprika, and a touch of cumin.",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Vinegar"
-        ],
-        "calories": 176.29
       },
       {
         "dc": "Tercero",
@@ -8901,7 +8599,7 @@
   {
     "dc": "Cuarto",
     "url": "https://housing.ucdavis.edu/dining/dining-commons/cuarto/",
-    "scrapedAt": "2026-11-15T19:39:58.698898",
+    "scrapedAt": "2026-11-16T23:16:51.905113",
     "dishes": [
       {
         "dc": "Cuarto",
@@ -8924,13 +8622,13 @@
         "dc": "Cuarto",
         "meal": "Breakfast",
         "zone": "Yellow Zone",
-        "name": "Scrambled Egg",
+        "name": "Assorted Scrambles",
         "description": "Softly scrambled cage-free eggs.",
         "dietary": [
-          "Vegetarian",
-          "Halal"
+          "Vegetarian"
         ],
         "allergens": [
+          "Dairy",
           "Egg"
         ],
         "calories": 138.75
@@ -8961,37 +8659,6 @@
           "Soybean Oil"
         ],
         "calories": 312.64
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Breakfast",
-        "zone": "Yellow Zone",
-        "name": "Build Your Own Omelette",
-        "description": "Eggs with Assorted Meats, Assorted Vegetables, Cheese, Salsas, and Vegan Options.",
-        "dietary": [],
-        "allergens": [
-          "Dairy",
-          "Egg",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar"
-        ],
-        "calories": 97.74
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Breakfast",
-        "zone": "Yellow Zone",
-        "name": "Fried Eggs to Order",
-        "description": "Egg fried to your request.\n\n*Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness, especially if you have certain medical conditions.",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Egg"
-        ],
-        "calories": 196.04
       },
       {
         "dc": "Cuarto",
@@ -9303,43 +8970,6 @@
         "dc": "Cuarto",
         "meal": "Lunch",
         "zone": "Red Zone",
-        "name": "Grass-Fed Mushroom Swiss Burger",
-        "description": "Beef burger topped with Swiss cheese and sautéed Cremini mushrooms",
-        "dietary": [],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Sesame",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 803.4
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Lunch",
-        "zone": "Red Zone",
-        "name": "Chipotle Black Bean Burger",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Sesame",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 578.96
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Lunch",
-        "zone": "Red Zone",
         "name": "Curly Fries",
         "description": "Crispy deep-fried seasoned curly cut potato fries.",
         "dietary": [
@@ -9351,69 +8981,6 @@
           "Wheat/Gluten"
         ],
         "calories": 313.17
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Chicken Parmesan Sandwich",
-        "description": "Deep fried chicken sandwich topped with marinara, shredded parmesan cheese and basil with an arugula phesto mayo spread",
-        "dietary": [],
-        "allergens": [
-          "Dairy",
-          "Sesame",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 611.18
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Lunch",
-        "zone": "Yellow Zone",
-        "name": "Peanut Curry Tofu Lettuce Wraps",
-        "description": "Locally made Organic Hodo Tofu tossed in a peanut red curry sauce. Served in lettuce wraps & garnished with fresh cilantro.",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Peanuts",
-          "Soy",
-          "Wheat/Gluten"
-        ],
-        "calories": 422.96
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Lunch",
-        "zone": "Blue Zone",
-        "name": "Butternut and Bacon Penne",
-        "description": "Bacon, onions, and roasted butternut squash tossed with penne and our house Alfredo sauce.",
-        "dietary": [],
-        "allergens": [
-          "Dairy",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 528.15
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Lunch",
-        "zone": "Blue Zone",
-        "name": "Garlic Breadsticks",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 110.56
       },
       {
         "dc": "Cuarto",
@@ -9497,21 +9064,6 @@
           "Wheat/Gluten"
         ],
         "calories": 37.0
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Lunch",
-        "zone": "Green Zone",
-        "name": "Organic Smoky Split Pea Soup",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 102.0
       },
       {
         "dc": "Cuarto",
@@ -9845,21 +9397,6 @@
       {
         "dc": "Cuarto",
         "meal": "Dinner",
-        "zone": "Green Zone",
-        "name": "Organic Smoky Split Pea Soup",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 102.0
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Dinner",
         "zone": "Purple Zone",
         "name": "Aggie Bar",
         "description": "A make your own bowl with choices of vegetables, rice, proteins, sauces and toppings",
@@ -9995,6 +9532,21 @@
         "dc": "Cuarto",
         "meal": "Breakfast",
         "zone": "Yellow Zone",
+        "name": "Scrambled Egg",
+        "description": "Softly scrambled cage-free eggs.",
+        "dietary": [
+          "Vegetarian",
+          "Halal"
+        ],
+        "allergens": [
+          "Egg"
+        ],
+        "calories": 138.75
+      },
+      {
+        "dc": "Cuarto",
+        "meal": "Breakfast",
+        "zone": "Yellow Zone",
         "name": "Pork Sausage Patties",
         "description": "Freshly-baked pork sausage patty.",
         "dietary": [],
@@ -10018,6 +9570,37 @@
           "Wheat/Gluten"
         ],
         "calories": 272.53
+      },
+      {
+        "dc": "Cuarto",
+        "meal": "Breakfast",
+        "zone": "Yellow Zone",
+        "name": "Build Your Own Omelette",
+        "description": "Eggs with Assorted Meats, Assorted Vegetables, Cheese, Salsas, and Vegan Options.",
+        "dietary": [],
+        "allergens": [
+          "Dairy",
+          "Egg",
+          "Soy",
+          "Soybean Oil",
+          "Vinegar"
+        ],
+        "calories": 97.74
+      },
+      {
+        "dc": "Cuarto",
+        "meal": "Breakfast",
+        "zone": "Yellow Zone",
+        "name": "Fried Eggs to Order",
+        "description": "Egg fried to your request.\n\n*Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness, especially if you have certain medical conditions.",
+        "dietary": [
+          "Vegetarian",
+          "Halal"
+        ],
+        "allergens": [
+          "Egg"
+        ],
+        "calories": 196.04
       },
       {
         "dc": "Cuarto",
@@ -10247,8 +9830,8 @@
         "dc": "Cuarto",
         "meal": "Lunch",
         "zone": "Yellow Zone",
-        "name": "Kung Pao Mushrooms",
-        "description": "Crispy breaded Mushrooms in a spicy Kung Pao sauce with chili peppers garnished with green onions served with sticky rice.",
+        "name": "Kung Pao Tofu",
+        "description": "Crispy fried tofu in a spicy Kung Pao sauce with chili peppers garnished with green onions served with sticky rice.",
         "dietary": [
           "Vegan",
           "Halal"
