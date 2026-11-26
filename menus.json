@@ -2,7 +2,7 @@
   {
     "dc": "Segundo",
     "url": "https://housing.ucdavis.edu/dining/dining-commons/segundo/",
-    "scrapedAt": "2026-11-25T23:00:14.907127",
+    "scrapedAt": "2026-11-26T22:54:04.941498",
     "dishes": [
       {
         "dc": "Segundo",
@@ -2373,24 +2373,6 @@
       {
         "dc": "Segundo",
         "meal": "Lunch",
-        "zone": "Blue Zone",
-        "name": "Szechuan Tofu",
-        "description": "Tofu in a spicy Szechuan sauce with vegetables served over sticky rice",
-        "dietary": [
-          "Vegan"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Sesame",
-          "Soy",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 434.19
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Lunch",
         "zone": "Green Zone",
         "name": "Salad Selections",
         "description": "Create your own customized bowl from proteins, roasted veggies, grains, greens and garnishes",
@@ -2522,24 +2504,6 @@
         "dc": "Segundo",
         "meal": "Dinner",
         "zone": "Red Zone",
-        "name": "Grass-Fed Bistro Burger",
-        "description": "Grilled Grass-Fed Burger with Garlic Aioli Spread and Caramelized Onions.",
-        "dietary": [],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Sesame",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 865.52
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Red Zone",
         "name": "Mushroom Street Taco",
         "description": "Mushrooms sautéed with onions and peppers, served over corn tortillas and drizzled with our cilantro-cashew sauce.",
         "dietary": [
@@ -2556,127 +2520,28 @@
         "dc": "Segundo",
         "meal": "Dinner",
         "zone": "Yellow Zone",
-        "name": "Seared Salmon with Creamy Polenta",
-        "description": "Seared salmon filets prepared simply with lemon and seasoned with salt and pepper on top of polenta",
+        "name": "Creamy Polenta",
+        "description": "",
         "dietary": [
           "Halal"
         ],
         "allergens": [
-          "Dairy",
-          "Fish"
+          "Dairy"
         ],
-        "calories": 320.38
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "Sausage and Onion Pizza",
-        "description": "Fresh pizza topped with cheese, sausage, and onion.",
-        "dietary": [],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 226.98
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "Veggie Phesto Pizza",
-        "description": "Savory artichokes, tomatoes, olives, and red onions drizzled with our house-made arugula \"phesto.\"",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Soybean Oil",
-          "Wheat/Gluten"
-        ],
-        "calories": 222.87
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Blue Zone",
-        "name": "Taco Bar with Chicken",
-        "description": "Shredded Chicken on your choice of Corn or Flour Tortillas with a variety of delicious toppings",
-        "dietary": [],
-        "allergens": [
-          "Dairy",
-          "Soy",
-          "Soybean Oil",
-          "Vinegar",
-          "Wheat/Gluten"
-        ],
-        "calories": 348.72
+        "calories": null
       },
       {
         "dc": "Segundo",
         "meal": "Dinner",
         "zone": "Green Zone",
-        "name": "Lemon Linguine Pasta Salad",
+        "name": "Beef Chili",
         "description": "",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
+        "dietary": [],
         "allergens": [
-          "Dairy",
           "Soy",
-          "Soybean Oil",
-          "Wheat/Gluten"
+          "Vinegar"
         ],
-        "calories": 100.0
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Green Zone",
-        "name": "Green Chili Pozole Soup",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 44.0
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Purple Zone",
-        "name": "Locally Grown Sticky Rice",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 199.24
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Purple Zone",
-        "name": "Garlicky Greens",
-        "description": "",
-        "dietary": [
-          "Vegan",
-          "Halal"
-        ],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 340.79
+        "calories": null
       },
       {
         "dc": "Segundo",
@@ -2689,50 +2554,13 @@
           "Vinegar"
         ],
         "calories": 231.74
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Carrot Cake",
-        "description": "",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Egg",
-          "Soy Lecithin",
-          "Soybean Oil",
-          "Tree Nuts",
-          "Wheat/Gluten"
-        ],
-        "calories": 252.8
-      },
-      {
-        "dc": "Segundo",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Tiramisu",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Wheat/Gluten"
-        ],
-        "calories": 141.85
       }
     ]
   },
   {
     "dc": "Tercero",
     "url": "https://housing.ucdavis.edu/dining/dining-commons/tercero/",
-    "scrapedAt": "2026-11-25T23:00:20.403537",
+    "scrapedAt": "2026-11-26T22:54:09.768236",
     "dishes": [
       {
         "dc": "Tercero",
@@ -5030,18 +4858,6 @@
         "dc": "Tercero",
         "meal": "Lunch",
         "zone": "Purple Zone",
-        "name": "Creamy Polenta",
-        "description": "",
-        "dietary": [],
-        "allergens": [
-          "No major allergens"
-        ],
-        "calories": 111.54
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Lunch",
-        "zone": "Purple Zone",
         "name": "Assorted Roasted Vegetables",
         "description": "",
         "dietary": [
@@ -5145,39 +4961,22 @@
         "dc": "Tercero",
         "meal": "Dinner",
         "zone": "Yellow Zone",
-        "name": "Middle Eastern Lamb Stew with Saffron Rice",
+        "name": "Pasta Gamberetti",
         "description": "",
-        "dietary": [],
+        "dietary": [
+          "Halal"
+        ],
         "allergens": [
-          "Dairy",
-          "Soy",
-          "Soy Lecithin",
-          "Soybean Oil",
-          "Tree Nuts",
+          "Shellfish",
           "Wheat/Gluten"
         ],
-        "calories": 142.41
+        "calories": 439.6
       },
       {
         "dc": "Tercero",
         "meal": "Dinner",
         "zone": "Yellow Zone",
-        "name": "Combo Pizza",
-        "description": "",
-        "dietary": [],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Soy",
-          "Wheat/Gluten"
-        ],
-        "calories": 132.86
-      },
-      {
-        "dc": "Tercero",
-        "meal": "Dinner",
-        "zone": "Yellow Zone",
-        "name": "Cheese Phesto Pizza",
+        "name": "Veggie Phesto Pizza",
         "description": "",
         "dietary": [
           "Vegetarian",
@@ -5323,7 +5122,7 @@
         "dc": "Tercero",
         "meal": "Dinner",
         "zone": "Purple Zone",
-        "name": "Roasted Broccolini",
+        "name": "Roasted Veggies",
         "description": "",
         "dietary": [
           "Vegan",
@@ -5376,7 +5175,7 @@
   {
     "dc": "Cuarto",
     "url": "https://housing.ucdavis.edu/dining/dining-commons/cuarto/",
-    "scrapedAt": "2026-11-25T23:00:25.651518",
+    "scrapedAt": "2026-11-26T22:54:14.479788",
     "dishes": [
       {
         "dc": "Cuarto",
@@ -7103,7 +6902,7 @@
         "meal": "Dinner",
         "zone": "Yellow Zone",
         "name": "Orange Chicken with Locally Grown Sticky Rice",
-        "description": "Asian-inspired allergy- friendly orange chicken",
+        "description": "Asian-inspired orange chicken",
         "dietary": [
           "Halal"
         ],
@@ -7135,7 +6934,7 @@
         "meal": "Dinner",
         "zone": "Blue Zone",
         "name": "Seared Salmon with Creamy Polenta",
-        "description": "Seared salmon filets prepared simply with lemon and seasoned with salt and pepper on top of polenta",
+        "description": "Seared salmon filets prepared with lemon and seasoned with salt and pepper on top of polenta",
         "dietary": [
           "Halal"
         ],
@@ -7171,43 +6970,6 @@
           "No major allergens"
         ],
         "calories": 44.0
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Carrot Cake",
-        "description": "",
-        "dietary": [
-          "Vegetarian",
-          "Halal"
-        ],
-        "allergens": [
-          "Dairy",
-          "Egg",
-          "Soy Lecithin",
-          "Soybean Oil",
-          "Tree Nuts",
-          "Wheat/Gluten"
-        ],
-        "calories": 252.8
-      },
-      {
-        "dc": "Cuarto",
-        "meal": "Dinner",
-        "zone": "Pink Zone",
-        "name": "Tiramisu",
-        "description": "",
-        "dietary": [
-          "Vegetarian"
-        ],
-        "allergens": [
-          "Alcohol",
-          "Dairy",
-          "Egg",
-          "Wheat/Gluten"
-        ],
-        "calories": 141.85
       }
     ]
   }
